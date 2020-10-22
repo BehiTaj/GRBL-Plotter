@@ -303,32 +303,35 @@ namespace GRBL_Plotter
                             grblFeedHold();
                             break;
                         }
-                    case "74":
+                    case "74": //Prog btn 
                         {
-                            updateLogging();
-                            Thread.Sleep(20);
-                            stopStreaming();
-                            Thread.Sleep(20);
-                            resetStreaming();
-                            Thread.Sleep(20);
-                            _serial_form.grblReset();
-                            Thread.Sleep(20);
-                            sendCommand(zeroCmd + " X0 Y0 Z0 A0 B0");
-                            pbFile.Value = 0;
-                            signalResume = 0;
-                            signalLock = 0;
-                            signalPlay = 0;
-                            btnResume.BackColor = SystemColors.Control;
-                            lbInfo.Text = "";
-                            lbInfo.BackColor = SystemColors.Control;
-                            cBSpindle.CheckedChanged -= cBSpindle_CheckedChanged;
-                            cBSpindle.Checked = false;
-                            cBSpindle.CheckedChanged += cBSpindle_CheckedChanged;
-                            cBCoolant.CheckedChanged -= cBSpindle_CheckedChanged;
-                            cBCoolant.Checked = false;
-                            cBCoolant.CheckedChanged += cBSpindle_CheckedChanged;
-                            updateControls();
-                            ControlPowerSaving.EnableStandby();
+                            if (state.ToLower() == "hold" || state.ToLower() == "idle")
+                            {
+                                updateLogging();
+                                Thread.Sleep(20);
+                                stopStreaming();
+                                Thread.Sleep(20);
+                                resetStreaming();
+                                Thread.Sleep(20);
+                                _serial_form.grblReset();
+                                Thread.Sleep(20);
+                                sendCommand(zeroCmd + " X0 Y0 Z0 A0 B0");
+                                pbFile.Value = 0;
+                                signalResume = 0;
+                                signalLock = 0;
+                                signalPlay = 0;
+                                btnResume.BackColor = SystemColors.Control;
+                                lbInfo.Text = "";
+                                lbInfo.BackColor = SystemColors.Control;
+                                cBSpindle.CheckedChanged -= cBSpindle_CheckedChanged;
+                                cBSpindle.Checked = false;
+                                cBSpindle.CheckedChanged += cBSpindle_CheckedChanged;
+                                cBCoolant.CheckedChanged -= cBSpindle_CheckedChanged;
+                                cBCoolant.Checked = false;
+                                cBCoolant.CheckedChanged += cBSpindle_CheckedChanged;
+                                updateControls();
+                                ControlPowerSaving.EnableStandby();
+                            }
                             break;
                         }
                     case "82":
