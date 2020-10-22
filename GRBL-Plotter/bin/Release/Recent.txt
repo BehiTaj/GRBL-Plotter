@@ -1,3 +1,5 @@
+lastProcessed.nc
+F:\Drawing1.dxf
 data\examples\graphic_grbl.svg
 data\examples\graphic_grbl_popup.svg
 data\examples\graphic_bunny.dxf

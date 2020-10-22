@@ -1,36 +1,52 @@
 ----- Possible levels: Trace, Debug, Info, Warn, Error, Fatal ----|
 
-2020-10-17 16:37:23.3011 | Info  | GRBL_Plotter.MainForm          | ###### GRBL-Plotter Ver. 1.5.2.0 START ######
-2020-10-17 16:37:24.4801 | Info  | GRBL_Plotter.MainForm          | Language: en
-2020-10-17 16:37:26.4171 | Info  | GRBL_Plotter.MainForm          | MainForm_Load start
-2020-10-17 16:37:27.3741 | Trace | GRBL_Plotter.MainForm          | loadHotkeys
-2020-10-17 16:37:27.4251 | Trace | GRBL_Plotter.MainForm          | LoadRecentList
-2020-10-17 16:37:27.4441 | Trace | GRBL_Plotter.MainForm          | LoadExtensionList
-2020-10-17 16:37:27.4441 | Trace | GRBL_Plotter.MainForm          |   - Add Extension GCode_Conic_Spiral.hta
-2020-10-17 16:37:27.4561 | Trace | GRBL_Plotter.MainForm          |   - Add Extension GCode_Nut_Recess.hta
-2020-10-17 16:37:27.4561 | Trace | GRBL_Plotter.MainForm          |   - Add Extension GCode_Spherical_Bowl.hta
-2020-10-17 16:37:27.4561 | Trace | GRBL_Plotter.MainForm          |   - Add Extension SVG_simple_example.html
-2020-10-17 16:37:27.8671 | Info  | GRBL_Plotter.checkUpdate       | CheckVersion
-2020-10-17 16:37:27.9211 | Trace | GRBL_Plotter.toolTable         | Init tool table
-2020-10-17 16:37:27.9571 | Trace | GRBL_Plotter.MainForm          | MainForm_Load finish, start splashScreen timer
-2020-10-17 16:37:29.5061 | Info  | GRBL_Plotter.ControlSerialForm | ====== SerialForm 1 COM CNC START ======
-2020-10-17 16:37:29.6711 | Info  | GRBL_Plotter.ControlSerialForm | Ser:1, openPort COM3 115200
-2020-10-17 16:37:29.6761 | Warn  | GRBL_Plotter.ControlSerialForm | Ser:1, Port COM3 not available
-2020-10-17 16:37:29.6761 | Trace | GRBL_Plotter.ControlSerialForm | resetVariables
-2020-10-17 16:37:29.7251 | Info  | GRBL_Plotter.MainForm          | ++++++ MainForm SplashScreen closed          -> mainTimer:3
-2020-10-17 16:37:29.9671 | Trace | GRBL_Plotter.checkUpdate       |  Vers.:1.5.2.0  ID:3e4d80cfe9bd5b56e98d00de0b7ff23b37d721ec  LangSet:en  LangOri:de-DE  url:https://GRBL-Plotter.de
-2020-10-17 16:37:31.0180 | Trace | GRBL_Plotter.checkUpdate       |  getCounters import 1-80-0-0-0-0-0_0-0-0-0-0  gc,svg,dxf,hpgl,csv,drill,gerber _ img,barc,txt,shape,ext
-2020-10-17 16:37:31.0180 | Trace | GRBL_Plotter.checkUpdate       |  getCounters usage 19-70-0   laser,probe,height
-2020-10-17 16:37:31.0180 | Trace | GRBL_Plotter.checkUpdate       | CheckSite2 https://GRBL-Plotter.de/GRBL-Plotter.php?vers=1.5.2.0&hwid=3e4d80cfe9bd5b56e98d00de0b7ff23b37d721ec&langset=en&langori=de-DE&import=1-80-0-0-0-0-0_0-0-0-0-0&usage=19-70-0
-2020-10-17 16:37:31.2680 | Trace | GRBL_Plotter.checkUpdate       | CheckSite2 1.5.1.0 |  |  | 
-
-2020-10-17 16:37:31.2680 | Info  | GRBL_Plotter.checkUpdate       | CheckVersion: current:1.5.2.0 latest:1.5.1.0  info:
-2020-10-17 16:37:32.7380 | Info  | GRBL_Plotter.MainForm          | ++++++ MainForm SplashScreen Timer disabled  -> mainTimer:10
-2020-10-17 16:37:32.7380 | Trace | GRBL_Plotter.MainForm          | updateControls isConnected:False isStreaming:False allowControl:False 
-2020-10-17 16:37:32.8200 | Trace | GRBL_Plotter.MainForm          | updateLayout()
-2020-10-17 16:37:33.0080 | Trace | GRBL_Plotter.MainForm          | loadHotkeys
-2020-10-17 16:37:36.8170 | Trace | GRBL_Plotter.ControlSerialForm | ====== Try closing SerialForm 1 FormOwnerClosing
-2020-10-17 16:37:37.6780 | Info  | GRBL_Plotter.ControlSerialForm | ====== SerialForm 1 STOP ======
-2020-10-17 16:37:37.6780 | Trace | GRBL_Plotter.MainForm          | ###### FormClosing 
-2020-10-17 16:37:38.0610 | Info  | GRBL_Plotter.MainForm          | ###### GRBL-Plotter STOP ######
-2020-10-17 16:37:38.0610 | Info  | GRBL_Plotter.MainForm          | ###+++ GRBL-Plotter FormClosed +++###
+2020-10-21 17:20:39.3336 | Info  | GRBL_Plotter.MainForm          | ###### GRBL-Plotter Ver. 1.5.2.0 START ######
+2020-10-21 17:20:39.5472 | Info  | GRBL_Plotter.MainForm          | Language: en
+2020-10-21 17:20:40.1638 | Info  | GRBL_Plotter.MainForm          | MainForm_Load start
+2020-10-21 17:20:40.1638 | Info  | GRBL_Plotter.MainForm          | MainForm_Load - Properties.Settings.Default.ctrlUpgradeRequired
+2020-10-21 17:20:40.8746 | Info  | GRBL_Plotter.checkUpdate       | CheckVersion
+2020-10-21 17:20:41.3400 | Error | GRBL_Plotter.checkUpdate       | CheckSite2 System.Net.WebException: The remote name could not be resolved: 'grbl-plotter.de'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at GRBL_Plotter.checkUpdate.CheckSite2(String site) in D:\Projekte\_Software\Programmierung_CSharp\GRBL-Plotter\GRBL-Plotter\checkUpdate.cs:line 136
+2020-10-21 17:20:42.4072 | Info  | GRBL_Plotter.ControlSerialForm | ====== SerialForm 1 COM CNC START ======
+2020-10-21 17:20:42.4823 | Info  | GRBL_Plotter.ControlSerialForm | Ser:1, openPort COM1 115200
+2020-10-21 17:20:42.4883 | Warn  | GRBL_Plotter.ControlSerialForm | Ser:1, Port COM1 not available
+2020-10-21 17:20:42.5084 | Info  | GRBL_Plotter.MainForm          | ++++++ MainForm SplashScreen closed          -> mainTimer:3
+2020-10-21 17:20:45.5075 | Info  | GRBL_Plotter.MainForm          | ++++++ MainForm SplashScreen Timer disabled  -> mainTimer:9
+2020-10-21 17:23:14.2296 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:23:14.7555 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:23:15.9581 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:23:15.9851 | Info  | GRBL_Plotter.IniFile           |  Set Defaults for 'Format related','Graphics import General','Path interpretation','Path repetion','Path modification','GCode generation'
+2020-10-21 17:37:17.0956 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:37:24.9150 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:37:25.6475 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:37:25.6475 | Info  | GRBL_Plotter.IniFile           |  Set Defaults for 'Format related','Graphics import General','Path interpretation','Path repetion','Path modification','GCode generation'
+2020-10-21 17:56:02.8205 | Info  | GRBL_Plotter.MainForm          | loadFile ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+2020-10-21 17:56:02.8205 | Info  | GRBL_Plotter.MainForm          | Load file F:\Drawing1.dxf
+2020-10-21 17:56:02.8385 | Info  | GRBL_Plotter.MainForm          | startConvertDXF
+2020-10-21 17:56:02.8598 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:56:04.6168 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:56:06.1310 | Info  | GRBL_Plotter.IniFile           | ++++++ IniFile START  ++++++
+2020-10-21 17:56:06.1310 | Info  | GRBL_Plotter.IniFile           |  Set Defaults for 'Format related','Graphics import General','Path interpretation','Path repetion','Path modification','GCode generation'
+2020-10-21 17:56:06.3909 | Info  | GRBL_Plotter.GCodeFromDXF      |  load from file
+2020-10-21 17:56:06.5141 | Info  | GRBL_Plotter.GCodeFromDXF      |  convertDXF F:\Drawing1.dxf
+2020-10-21 17:56:06.5141 | Info  | GRBL_Plotter.GCodeFromDXF      |  logEnable:False  logPosition:False
+2020-10-21 17:56:06.6427 | Info  | GRBL_Plotter.GCodeFromDXF      |  convertDXF finish <- Graphic.CreateGCode()
+2020-10-21 17:56:06.8519 | Info  | GRBL_Plotter.MainForm          |  Import options: <Sort objects> <DashPattern> 
+2020-10-21 17:56:06.8519 | Info  | GRBL_Plotter.MainForm          |  Conversion info: 5 elements imported
+2020-10-21 17:56:06.8519 | Info  | GRBL_Plotter.MainForm          | Load file fileLoaded:True
+2020-10-21 17:58:13.4976 | Info  | GRBL_Plotter.ControlSerialForm | Ser:1, openPort COM27 115200
+2020-10-21 17:58:15.1540 | Info  | GRBL_Plotter.MainForm          | Read buffer size of 127 [Setup - Flow control - grbl buffer size]
+2020-10-21 17:58:32.8395 | Info  | GRBL_Plotter.MainForm          | Read buffer size of 127 [Setup - Flow control - grbl buffer size]
+2020-10-21 17:58:50.6792 | Info  | GRBL_Plotter.MainForm          | Start streaming at line:0  showProgress:True  backgroundImage:False
+2020-10-21 17:58:50.7312 | Info  | GRBL_Plotter.ControlSerialForm | Ser:1 *************** startStreaming at line:0 **************
+2020-10-21 17:59:04.7049 | Info  | GRBL_Plotter.MainForm          | Pause streaming - pause stream
+2020-10-21 17:59:06.1020 | Warn  | GRBL_Plotter.ControlSerialForm | Ser:1  grbl ALARM 'ALARM:3' Reset while in motion. Machine position is likely lost due to sudden halt. Re-homing is highly recommended.
+2020-10-21 17:59:06.3551 | Error | GRBL_Plotter.ControlSerialForm | ### grblBufferFree too big! 128 rx:'ok' in processGrblOkMessage() - fix | last RX:'' RX-1:'' RX-2:''
+2020-10-21 17:59:06.3551 | Info  | GRBL_Plotter.ControlSerialForm | sendBuffer snt:  0  cnfrmnd:  1  cnt:  0  BFree:128  lineNr:0  code:'' state:alarm
+2020-10-21 17:59:06.3551 | Info  | GRBL_Plotter.ControlSerialForm | strmBuffer snt:  0  cnfrmnd:  0  cnt:  0  BFree:128  lineNr:0  code:'' state:alarm
+2020-10-21 17:59:07.2464 | Info  | GRBL_Plotter.MainForm          | Read buffer size of 127 [Setup - Flow control - grbl buffer size]
+2020-10-21 18:01:24.0337 | Info  | GRBL_Plotter.ControlSerialForm | ====== SerialForm 1 STOP ======
+2020-10-21 18:01:24.3589 | Info  | GRBL_Plotter.MainForm          | ###### GRBL-Plotter STOP ######
+2020-10-21 18:01:24.3589 | Info  | GRBL_Plotter.MainForm          | ###+++ GRBL-Plotter FormClosed +++###
