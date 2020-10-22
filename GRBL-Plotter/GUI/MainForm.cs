@@ -453,13 +453,17 @@ namespace GRBL_Plotter
                 SplashScreenTimer.Stop();
                 SplashScreenTimer.Interval = 3000;
                 SplashScreenTimer.Start();
+<<<<<<< HEAD
                 //                updateControls();
+=======
+>>>>>>> upstream/master
             }
             else
             {
                 SplashScreenTimer.Enabled = false;      // 1st occurance, show splashscreen windows
                 statusStripClear(2, 2);
                 Logger.Info("++++++ MainForm SplashScreen Timer disabled  -> mainTimer:{0}", mainTimerCount);
+                timerUpdateControlSource = "SplashScreenTimer_Tick";
                 updateControls();
                 updateLayout();
                 MainTimer.Stop();
@@ -514,7 +518,9 @@ namespace GRBL_Plotter
                 txt = "$J=" + txt;
             txt = gui.insertVariable(txt);			// will be filled in MainFormLoadFile.cs 1617, defined in MainFormObjects.cs
             if (!_serial_form.requestSend(txt))     // check if COM is still open
+            {   timerUpdateControlSource = "sendCommand";
                 updateControls();
+            }
 
             if ((txt.Contains("G92") || txt.Contains("G10") || txt.Contains("G43")) && (_coordSystem_form != null))
                 _coordSystem_form.refreshValues();
@@ -798,7 +804,7 @@ namespace GRBL_Plotter
                 {
                     var result = f.ShowDialog(this);
                     if (result == DialogResult.OK)
-                    { updateControls(); updateLayout(); }
+                    { timerUpdateControlSource = "btnCustomButton_Click"; updateControls(); updateLayout(); }
                 }
             }
             else
@@ -1052,30 +1058,41 @@ namespace GRBL_Plotter
             sendRealtimeCommand('!');
             Logger.Trace("FeedHold");
             signalResume = 1;
+            timerUpdateControlSource = "grblFeedHold";
             updateControls(true);
         }
         private void btnResume_Click(object sender, EventArgs e)
         { grblResume(); }
         private void grblResume()
+<<<<<<< HEAD
         {
             sendRealtimeCommand('~');
+=======
+        {   sendRealtimeCommand('~');
+>>>>>>> upstream/master
             Logger.Trace("Resume");
             btnResume.BackColor = SystemColors.Control;
             signalResume = 0;
             lbInfo.Text = "";
             lbInfo.BackColor = SystemColors.Control;
+            timerUpdateControlSource = "grblResume";
             updateControls();
         }
         private void btnKillAlarm_Click(object sender, EventArgs e)
-        { grblKillAlarm(); }
+        {   grblKillAlarm(); }
         private void grblKillAlarm()
+<<<<<<< HEAD
         {
             sendCommand("$X");
+=======
+        {   sendCommand("$X");
+>>>>>>> upstream/master
             Logger.Trace("KillAlarm");
             signalLock = 0;
             btnKillAlarm.BackColor = SystemColors.Control;
             lbInfo.Text = "";
             lbInfo.BackColor = SystemColors.Control;
+            timerUpdateControlSource = "grblKillAlarm";
             updateControls();
         }
         #endregion
