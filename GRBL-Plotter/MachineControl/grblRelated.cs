@@ -38,8 +38,8 @@ namespace GRBL_Plotter
 {
     public static class grbl
     {       // need to have global access to this data?
-        public static xyzPoint posWCO     = new xyzPoint(0, 0, 0);
-        public static xyzPoint posWork    = new xyzPoint(0, 0, 0);
+        public static xyzPoint posWCO = new xyzPoint(0, 0, 0);
+        public static xyzPoint posWork = new xyzPoint(0, 0, 0);
         public static xyzPoint posMachine = new xyzPoint(0, 0, 0);
         public static bool posChanged = true;
         public static bool wcoChanged = true;
@@ -55,6 +55,8 @@ namespace GRBL_Plotter
         public static int pollInterval = 200;
         public static int bufferSize = -1;
         public static string lastMessage = "";
+        public static int Ln; //*DARESTAN*
+        public static double OV; //*DARESTAN*
 
         public static bool grblSimulate = false;
         private static Dictionary<int, float> settings = new Dictionary<int, float>();    // keep $$-settings
@@ -64,21 +66,25 @@ namespace GRBL_Plotter
         private static double _posMarkerAngle = 0;
         private static xyPoint _posMarkerOld = new xyPoint(0, 0);
         public static xyPoint posMarker
-        {   get
-            {   return _posMarker;  }
+        {
+            get
+            { return _posMarker; }
             set
-            {   _posMarkerOld = _posMarker;
+            {
+                _posMarkerOld = _posMarker;
                 _posMarker = value;
             }
         }
         public static xyPoint posMarkerOld
-        {   get
-            {   return _posMarkerOld; }
+        {
+            get
+            { return _posMarkerOld; }
             set
-            {   _posMarkerOld = value; }
+            { _posMarkerOld = value; }
         }
         public static double posMarkerAngle
-        {   get
+        {
+            get
             { return _posMarkerAngle; }
             set
             { _posMarkerAngle = value; }
@@ -107,16 +113,16 @@ namespace GRBL_Plotter
             setMessageString(ref messageSettingCodes, Properties.Resources.setting_codes_en_US);
 
             //    public enum grblState { idle, run, hold, jog, alarm, door, check, home, sleep, probe, unknown };
-            statusConvert[0].msg = "Idle";  statusConvert[0].text = Localization.getString("grblIdle");  statusConvert[0].state = grblState.idle; statusConvert[0].color = Color.Lime;
-            statusConvert[1].msg = "Run";   statusConvert[1].text = Localization.getString("grblRun");   statusConvert[1].state = grblState.run;  statusConvert[1].color = Color.Yellow;
-            statusConvert[2].msg = "Hold";  statusConvert[2].text = Localization.getString("grblHold");  statusConvert[2].state = grblState.hold; statusConvert[2].color = Color.YellowGreen;
-            statusConvert[3].msg = "Jog";   statusConvert[3].text = Localization.getString("grblJog");   statusConvert[3].state = grblState.jog;  statusConvert[3].color = Color.LightGreen;
-            statusConvert[4].msg = "Alarm"; statusConvert[4].text = Localization.getString("grblAlarm"); statusConvert[4].state = grblState.alarm;statusConvert[4].color = Color.Red;
-            statusConvert[5].msg = "Door";  statusConvert[5].text = Localization.getString("grblDoor");  statusConvert[5].state = grblState.door; statusConvert[5].color = Color.Orange;
-            statusConvert[6].msg = "Check"; statusConvert[6].text = Localization.getString("grblCheck"); statusConvert[6].state = grblState.check;statusConvert[6].color = Color.Orange;
-            statusConvert[7].msg = "Home";  statusConvert[7].text = Localization.getString("grblHome");  statusConvert[7].state = grblState.home; statusConvert[7].color = Color.Magenta;
-            statusConvert[8].msg = "Sleep"; statusConvert[8].text = Localization.getString("grblSleep"); statusConvert[8].state = grblState.sleep;statusConvert[8].color = Color.Yellow;
-            statusConvert[9].msg = "Probe"; statusConvert[9].text = Localization.getString("grblProbe"); statusConvert[9].state = grblState.probe;statusConvert[9].color = Color.LightBlue;
+            statusConvert[0].msg = "Idle"; statusConvert[0].text = Localization.getString("grblIdle"); statusConvert[0].state = grblState.idle; statusConvert[0].color = Color.Lime;
+            statusConvert[1].msg = "Run"; statusConvert[1].text = Localization.getString("grblRun"); statusConvert[1].state = grblState.run; statusConvert[1].color = Color.Yellow;
+            statusConvert[2].msg = "Hold"; statusConvert[2].text = Localization.getString("grblHold"); statusConvert[2].state = grblState.hold; statusConvert[2].color = Color.YellowGreen;
+            statusConvert[3].msg = "Jog"; statusConvert[3].text = Localization.getString("grblJog"); statusConvert[3].state = grblState.jog; statusConvert[3].color = Color.LightGreen;
+            statusConvert[4].msg = "Alarm"; statusConvert[4].text = Localization.getString("grblAlarm"); statusConvert[4].state = grblState.alarm; statusConvert[4].color = Color.Red;
+            statusConvert[5].msg = "Door"; statusConvert[5].text = Localization.getString("grblDoor"); statusConvert[5].state = grblState.door; statusConvert[5].color = Color.Orange;
+            statusConvert[6].msg = "Check"; statusConvert[6].text = Localization.getString("grblCheck"); statusConvert[6].state = grblState.check; statusConvert[6].color = Color.Orange;
+            statusConvert[7].msg = "Home"; statusConvert[7].text = Localization.getString("grblHome"); statusConvert[7].state = grblState.home; statusConvert[7].color = Color.Magenta;
+            statusConvert[8].msg = "Sleep"; statusConvert[8].text = Localization.getString("grblSleep"); statusConvert[8].state = grblState.sleep; statusConvert[8].color = Color.Yellow;
+            statusConvert[9].msg = "Probe"; statusConvert[9].text = Localization.getString("grblProbe"); statusConvert[9].state = grblState.probe; statusConvert[9].color = Color.LightBlue;
 
             settings.Clear();
             coordinates.Clear();
@@ -132,16 +138,19 @@ namespace GRBL_Plotter
 
         // store grbl settings https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#grbl-settings
         public static void setSettings(int id, string value)
-        {   float tmp = 0;
+        {
+            float tmp = 0;
             if (float.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out tmp))
-            {   if (settings.ContainsKey(id))
+            {
+                if (settings.ContainsKey(id))
                     settings[id] = tmp;
                 else
                     settings.Add(id, tmp);
             }
         }
         public static float getSetting(int key)
-        {   if (settings.ContainsKey(key))
+        {
+            if (settings.ContainsKey(key))
                 return settings[key];
             else
                 return -1;
@@ -149,17 +158,20 @@ namespace GRBL_Plotter
 
         // store gcode parameters https://github.com/gnea/grbl/wiki/Grbl-v1.1-Commands#---view-gcode-parameters
         public static void setCoordinates(string id, string value, string info)
-        {   xyzPoint tmp = new xyzPoint();
+        {
+            xyzPoint tmp = new xyzPoint();
             string allowed = "PRBG54G55G56G57G58G59G28G30G92TLO";
             if (allowed.Contains(id))
-            {   getPosition(0,"abc:" + value, ref tmp);   // parse string [PRB:-155.000,-160.000,-28.208:1]
+            {
+                getPosition(0, "abc:" + value, ref tmp);   // parse string [PRB:-155.000,-160.000,-28.208:1]
                 if (coordinates.ContainsKey(id))
                     coordinates[id] = tmp;
                 else
                     coordinates.Add(id, tmp);
 
                 if ((info.Length > 0) && (id == "PRB"))
-                {   xyzPoint tmp2 = new xyzPoint();
+                {
+                    xyzPoint tmp2 = new xyzPoint();
                     tmp2 = coordinates["PRB"];
                     tmp2.A = info == "1" ? 1 : 0;
                     coordinates["PRB"] = tmp2;
@@ -168,11 +180,14 @@ namespace GRBL_Plotter
         }
 
         public static string displayCoord(string key)
-        {   if (coordinates.ContainsKey(key))
-            {   if (key == "TLO")
+        {
+            if (coordinates.ContainsKey(key))
+            {
+                if (key == "TLO")
                     return String.Format("                  {0,8:###0.000}", coordinates[key].Z);
                 else
-                {   string coordString = String.Format("{0,8:###0.000} {1,8:###0.000} {2,8:###0.000}", coordinates[key].X, coordinates[key].Y, coordinates[key].Z);
+                {
+                    string coordString = String.Format("{0,8:###0.000} {1,8:###0.000} {2,8:###0.000}", coordinates[key].X, coordinates[key].Y, coordinates[key].Z);
                     if (axisA) coordString = String.Format("{0} {1,8:###0.000}", coordString, coordinates[key].A);
                     if (axisB) coordString = String.Format("{0} {1,8:###0.000}", coordString, coordinates[key].B);
                     if (axisC) coordString = String.Format("{0} {1,8:###0.000}", coordString, coordinates[key].C);
@@ -183,21 +198,25 @@ namespace GRBL_Plotter
                 return "no data";
         }
         public static xyzPoint getCoord(string key)
-        {   if (coordinates.ContainsKey(key))
+        {
+            if (coordinates.ContainsKey(key))
                 return coordinates[key];
             return new xyzPoint();
         }
 
         public static bool getPRBStatus()
-        {   if (coordinates.ContainsKey("PRB"))
-            {   return (coordinates["PRB"].A==0.0)? false:true;    }
+        {
+            if (coordinates.ContainsKey("PRB"))
+            { return (coordinates["PRB"].A == 0.0) ? false : true; }
             return false;
         }
 
         private static void setMessageString(ref Dictionary<string, string> myDict, string resource)
-        {   string[] tmp = resource.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+        {
+            string[] tmp = resource.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
             foreach (string s in tmp)
-            {   string[] col = s.Split(new[] { "\",\"" }, StringSplitOptions.None);
+            {
+                string[] col = s.Split(new[] { "\",\"" }, StringSplitOptions.None);
                 string message = col[col.Length - 1].Trim('"');
                 myDict.Add(col[0].Trim('"'), message);
             }
@@ -213,23 +232,30 @@ namespace GRBL_Plotter
             string num = "";
             bool comment = false;
             double value = 0;
-			bool TLO = getTLO;
+            bool TLO = getTLO;
             getTLO = false;
             myParserState.changed = false;
 
             if (!(line.StartsWith("$") || line.StartsWith("("))) //do not parse grbl commands
-            {   try
-                {   foreach (char c in line)
-                    {   if (c == ';')
+            {
+                try
+                {
+                    foreach (char c in line)
+                    {
+                        if (c == ';')
                             break;
                         if (c == '(')
                             comment = true;
                         if (!comment)
-                        {   if (Char.IsLetter(c))
-                            {   if (cmd != '\0')
-                                {   value = 0;
+                        {
+                            if (Char.IsLetter(c))
+                            {
+                                if (cmd != '\0')
+                                {
+                                    value = 0;
                                     if (num.Length > 0)
-                                    {   try { value = double.Parse(num, System.Globalization.NumberFormatInfo.InvariantInfo); }
+                                    {
+                                        try { value = double.Parse(num, System.Globalization.NumberFormatInfo.InvariantInfo); }
                                         catch { }
                                     }
                                     try { setParserState(cmd, value, ref myParserState); }
@@ -239,20 +265,21 @@ namespace GRBL_Plotter
                                 num = "";
                             }
                             else if (Char.IsNumber(c) || c == '.' || c == '-')
-                            {   num += c;  }
+                            { num += c; }
                         }
                         if (c == ')')
                         { comment = false; }
                     }
                     if (cmd != '\0')
-                    {   try { setParserState(cmd, double.Parse(num, System.Globalization.NumberFormatInfo.InvariantInfo), ref myParserState); }
+                    {
+                        try { setParserState(cmd, double.Parse(num, System.Globalization.NumberFormatInfo.InvariantInfo), ref myParserState); }
                         catch { }
                     }
                 }
                 catch { }
             }
-			if (serNr != 1)
-				getTLO = TLO;	// restore value;
+            if (serNr != 1)
+                getTLO = TLO;	// restore value;
         }
 
         /// <summary>
@@ -260,11 +287,13 @@ namespace GRBL_Plotter
         /// </summary>
         private static void setParserState(char cmd, double value, ref pState myParserState)
         {
-//            myParserState.changed = false;
+            //            myParserState.changed = false;
             switch (Char.ToUpper(cmd))
-            {   case 'G':
+            {
+                case 'G':
                     if (value <= 3)
-                    {   myParserState.motion = (byte)value;
+                    {
+                        myParserState.motion = (byte)value;
                         break;
                     }
                     if ((value >= 17) && (value <= 19))
@@ -282,7 +311,7 @@ namespace GRBL_Plotter
                     else if ((value == 93) || (value == 94))
                         myParserState.feed_rate = (byte)value;
                     myParserState.changed = true;
-//                    MessageBox.Show("set parser state "+cmd + "  " + value.ToString()+ "  "+ myParserState.TLOactive.ToString());
+                    //                    MessageBox.Show("set parser state "+cmd + "  " + value.ToString()+ "  "+ myParserState.TLOactive.ToString());
                     break;
                 case 'M':
                     if ((value <= 2) || (value == 30))
@@ -316,8 +345,10 @@ namespace GRBL_Plotter
         // check https://github.com/gnea/grbl/wiki/Grbl-v1.1-Commands#g---view-gcode-parser-state
         public static int[] unknownG = { 41, 64, 81, 83 };
         public static grblState parseStatus(string status)    // {idle, run, hold, home, alarm, check, door}
-        {   for (int i = 0; i < statusConvert.Length; i++)
-            {   if (status.StartsWith(statusConvert[i].msg))     // status == statusConvert[i].msg
+        {
+            for (int i = 0; i < statusConvert.Length; i++)
+            {
+                if (status.StartsWith(statusConvert[i].msg))     // status == statusConvert[i].msg
                     return statusConvert[i].state;
             }
             return grblState.unknown;
@@ -327,7 +358,8 @@ namespace GRBL_Plotter
             for (int i = 0; i < statusConvert.Length; i++)
             {
                 if (state == statusConvert[i].state)
-                { if (Properties.Settings.Default.grblTranslateMessage)
+                {
+                    if (Properties.Settings.Default.grblTranslateMessage)
                         return statusConvert[i].text;
                     else
                         return statusConvert[i].state.ToString();
@@ -345,13 +377,15 @@ namespace GRBL_Plotter
             return Color.Fuchsia;
         }
         public static bool getBufferSize(int serNr, string text)
-        {   if (bufferSize <= 0)    // only get if not done already
-            {   string[] dataValue = text.Split(',');
-				int tmp=-1;
+        {
+            if (bufferSize <= 0)    // only get if not done already
+            {
+                string[] dataValue = text.Split(',');
+                int tmp = -1;
                 if (dataValue.Length > 1)
                 { int.TryParse(dataValue[1], NumberStyles.Any, CultureInfo.InvariantCulture, out tmp); }
-				if (tmp > 0)
-					bufferSize = tmp;				
+                if (tmp > 0)
+                    bufferSize = tmp;
                 return true;
             }
             return false;
@@ -378,34 +412,39 @@ namespace GRBL_Plotter
                 axisCountLocal = 3;
             }
             if (dataValue.Length > 3)
-            {   Double.TryParse(dataValue[3], NumberStyles.Any, CultureInfo.InvariantCulture, out position.A);
+            {
+                Double.TryParse(dataValue[3], NumberStyles.Any, CultureInfo.InvariantCulture, out position.A);
                 axisCountLocal++;
-				if (serNr == 1)	axisA = true;
+                if (serNr == 1) axisA = true;
             }
             if (dataValue.Length > 4)
-            {   Double.TryParse(dataValue[4], NumberStyles.Any, CultureInfo.InvariantCulture, out position.B);
+            {
+                Double.TryParse(dataValue[4], NumberStyles.Any, CultureInfo.InvariantCulture, out position.B);
                 axisCountLocal++;
-				if (serNr == 1)	axisB = true;
+                if (serNr == 1) axisB = true;
             }
             if (dataValue.Length > 5)
-            {   Double.TryParse(dataValue[5], NumberStyles.Any, CultureInfo.InvariantCulture, out position.C);
+            {
+                Double.TryParse(dataValue[5], NumberStyles.Any, CultureInfo.InvariantCulture, out position.C);
                 axisCountLocal++;
-				if (serNr == 1)	axisC = true;
+                if (serNr == 1) axisC = true;
             }
-			if (serNr == 1)	
-				axisCount = axisCountLocal;
-			return axisCountLocal;
+            if (serNr == 1)
+                axisCount = axisCountLocal;
+            return axisCountLocal;
             //axisA = true; axisB = true; axisC = true;     // for test only
         }
 
         public static string getSettingDescription(string msgNr)
-        {   string msg = " no information found '" + msgNr + "'";
+        {
+            string msg = " no information found '" + msgNr + "'";
             try { msg = grbl.messageSettingCodes[msgNr]; }
             catch { }
             return msg;
         }
         public static string getErrorDescription(string rxString)
-        {   string[] tmp = rxString.Split(':');
+        {
+            string[] tmp = rxString.Split(':');
             if (tmp.Length > 1)
             {
                 string msg = " no information found for error-nr. '" + tmp[1] + "'";
@@ -431,26 +470,32 @@ namespace GRBL_Plotter
             }
         }
         public static bool errorBecauseOfBadCode(string rxString)
-        {   string[] tmp = rxString.Split(':');
-            try {   int[] notByGCode = {3,5,6,7,8,9,10,12,13,14,15,16,17,18,19};
+        {
+            string[] tmp = rxString.Split(':');
+            try
+            {
+                int[] notByGCode = { 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19 };
                 //int errnr = Convert.ToInt16(tmp[1].Trim());
-                    short errnr = 0;
-                     if (!short.TryParse(tmp[1], NumberStyles.Any, CultureInfo.InvariantCulture, out errnr))
-                        return true;
-                    if (Array.Exists(notByGCode, element => element == errnr))
-                        return false; 
-                    else
-                        return true;
-                }
+                short errnr = 0;
+                if (!short.TryParse(tmp[1], NumberStyles.Any, CultureInfo.InvariantCulture, out errnr))
+                    return true;
+                if (Array.Exists(notByGCode, element => element == errnr))
+                    return false;
+                else
+                    return true;
+            }
             catch { }
             return true;
         }
         public static string getAlarmDescription(string rxString)
-        {   string[] tmp = rxString.Split(':');
+        {
+            string[] tmp = rxString.Split(':');
             string msg = " no information found for alarm-nr. '" + tmp[1] + "'";
-            try {   if (messageAlarmCodes.ContainsKey(tmp[1].Trim()))
-                        msg = grbl.messageAlarmCodes[tmp[1].Trim()];
-                }
+            try
+            {
+                if (messageAlarmCodes.ContainsKey(tmp[1].Trim()))
+                    msg = grbl.messageAlarmCodes[tmp[1].Trim()];
+            }
             catch { }
             return msg;
         }
@@ -521,24 +566,24 @@ namespace GRBL_Plotter
 
     public class pState
     {
-        public bool changed=false;
-        public int motion=0;           // {G0,G1,G2,G3,G38.2,G80} 
-        public int feed_rate=94;       // {G93,G94} 
-        public int units=21;           // {G20,G21} 
-        public int distance=90;        // {G90,G91} 
-                                        // uint8_t distance_arc; // {G91.1} NOTE: Don't track. Only default supported. 
-        public int plane_select=17;    // {G17,G18,G19} 
-                                        // uint8_t cutter_comp;  // {G40} NOTE: Don't track. Only default supported. 
-        public double tool_length=0;       // {G43.1,G49} 
-        public int coord_select=54;    // {G54,G55,G56,G57,G58,G59} 
-                                        // uint8_t control;      // {G61} NOTE: Don't track. Only default supported. 
-        public int program_flow=0;    // {M0,M1,M2,M30} 
-        public int coolant=9;         // {M7,M8,M9} 
-        public int spindle=5;         // {M3,M4,M5} 
-        public bool toolchange=false;
-        public int tool=0;            // tool number
-        public double FR=0;           // feedrate
-        public double SS=0;           // spindle speed
+        public bool changed = false;
+        public int motion = 0;           // {G0,G1,G2,G3,G38.2,G80} 
+        public int feed_rate = 94;       // {G93,G94} 
+        public int units = 21;           // {G20,G21} 
+        public int distance = 90;        // {G90,G91} 
+                                         // uint8_t distance_arc; // {G91.1} NOTE: Don't track. Only default supported. 
+        public int plane_select = 17;    // {G17,G18,G19} 
+                                         // uint8_t cutter_comp;  // {G40} NOTE: Don't track. Only default supported. 
+        public double tool_length = 0;       // {G43.1,G49} 
+        public int coord_select = 54;    // {G54,G55,G56,G57,G58,G59} 
+                                         // uint8_t control;      // {G61} NOTE: Don't track. Only default supported. 
+        public int program_flow = 0;    // {M0,M1,M2,M30} 
+        public int coolant = 9;         // {M7,M8,M9} 
+        public int spindle = 5;         // {M3,M4,M5} 
+        public bool toolchange = false;
+        public int tool = 0;            // tool number
+        public double FR = 0;           // feedrate
+        public double SS = 0;           // spindle speed
         public bool TLOactive = false;// Tool length offset
 
         public void reset()
@@ -554,13 +599,14 @@ namespace GRBL_Plotter
     };
 
     public class mState
-    {   public string Bf, Ln, FS, Pn, Ov, A;
-        public mState(string bf, string ln, string fs, string pn, string ov, string a)
-        { Bf = bf; Ln = ln; FS = fs; Pn = pn; Ov = ov; A = a; }
+    {
+        public string Bf, Ln, FS, Pn, Ov, A, KR;
+        public mState(string bf, string ln, string fs, string pn, string ov, string a, string kr)
+        { Bf = bf; Ln = ln; FS = fs; Pn = pn; Ov = ov; A = a; KR = kr; }
         public mState()
         { Clear(); }
         public void Clear()
-        {   Bf = ""; Ln = ""; FS = ""; Pn = ""; Ov = ""; A = ""; }
+        { Bf = ""; Ln = ""; FS = ""; Pn = ""; Ov = ""; A = ""; KR = ""; }
     };
 
     public class StreamEventArgs : EventArgs
@@ -618,4 +664,19 @@ namespace GRBL_Plotter
         public string Raw
         { get { return raw; } }
     }
+
+    /// <summary>
+    /// *DARESTAN*
+    /// when remote control send a 'key' by serialPort This method raised an event
+    /// </summary>
+    public class RemoteIREventArgs : EventArgs
+    {
+        public string Key;
+        public RemoteIREventArgs(string key)
+        {
+            Key = key;
+        }
+    }
+
+
 }

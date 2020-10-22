@@ -56,6 +56,8 @@ namespace GRBL_Plotter
             this.rtbLog = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pasteCodeFromClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copySelectionToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnGRBLCommand0 = new System.Windows.Forms.Button();
@@ -90,8 +92,8 @@ namespace GRBL_Plotter
             this.tBURL = new System.Windows.Forms.TextBox();
             this.btnCheckGRBLResult = new System.Windows.Forms.Button();
             this.cBTelnet = new System.Windows.Forms.CheckBox();
-            this.copySelectionToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblSrKR = new System.Windows.Forms.Label();
+            this.lblSrKR1 = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -148,6 +150,7 @@ namespace GRBL_Plotter
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pasteCodeFromClipboardToolStripMenuItem,
             this.copySelectionToClipboardToolStripMenuItem,
@@ -160,6 +163,18 @@ namespace GRBL_Plotter
             this.pasteCodeFromClipboardToolStripMenuItem.Name = "pasteCodeFromClipboardToolStripMenuItem";
             resources.ApplyResources(this.pasteCodeFromClipboardToolStripMenuItem, "pasteCodeFromClipboardToolStripMenuItem");
             this.pasteCodeFromClipboardToolStripMenuItem.Click += new System.EventHandler(this.pasteCodeFromClipboardToolStripMenuItem_Click);
+            // 
+            // copySelectionToClipboardToolStripMenuItem
+            // 
+            this.copySelectionToClipboardToolStripMenuItem.Name = "copySelectionToClipboardToolStripMenuItem";
+            resources.ApplyResources(this.copySelectionToClipboardToolStripMenuItem, "copySelectionToClipboardToolStripMenuItem");
+            this.copySelectionToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copySelectionToClipboardToolStripMenuItem_Click);
+            // 
+            // selectAllToolStripMenuItem
+            // 
+            this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
+            resources.ApplyResources(this.selectAllToolStripMenuItem, "selectAllToolStripMenuItem");
+            this.selectAllToolStripMenuItem.Click += new System.EventHandler(this.selectAllToolStripMenuItem_Click);
             // 
             // btnClear
             // 
@@ -367,6 +382,8 @@ namespace GRBL_Plotter
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblSrKR);
+            this.groupBox1.Controls.Add(this.lblSrKR1);
             this.groupBox1.Controls.Add(this.cBStatus1);
             this.groupBox1.Controls.Add(this.tBURL);
             this.groupBox1.Controls.Add(this.btnCheckGRBLResult);
@@ -407,17 +424,17 @@ namespace GRBL_Plotter
             resources.ApplyResources(this.cBTelnet, "cBTelnet");
             this.cBTelnet.Name = "cBTelnet";
             // 
-            // copySelectionToClipboardToolStripMenuItem
+            // lblSrKR
             // 
-            this.copySelectionToClipboardToolStripMenuItem.Name = "copySelectionToClipboardToolStripMenuItem";
-            resources.ApplyResources(this.copySelectionToClipboardToolStripMenuItem, "copySelectionToClipboardToolStripMenuItem");
-            this.copySelectionToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copySelectionToClipboardToolStripMenuItem_Click);
+            resources.ApplyResources(this.lblSrKR, "lblSrKR");
+            this.lblSrKR.Name = "lblSrKR";
+            this.toolTipSerial.SetToolTip(this.lblSrKR, resources.GetString("lblSrKR.ToolTip"));
             // 
-            // selectAllToolStripMenuItem
+            // lblSrKR1
             // 
-            this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
-            resources.ApplyResources(this.selectAllToolStripMenuItem, "selectAllToolStripMenuItem");
-            this.selectAllToolStripMenuItem.Click += new System.EventHandler(this.selectAllToolStripMenuItem_Click);
+            resources.ApplyResources(this.lblSrKR1, "lblSrKR1");
+            this.lblSrKR1.Name = "lblSrKR1";
+            this.toolTipSerial.SetToolTip(this.lblSrKR1, resources.GetString("lblSrKR1.ToolTip"));
             // 
             // ControlSerialForm
             // 
@@ -503,5 +520,7 @@ namespace GRBL_Plotter
         private System.Windows.Forms.ToolStripMenuItem pasteCodeFromClipboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copySelectionToClipboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
+        private System.Windows.Forms.Label lblSrKR;
+        private System.Windows.Forms.Label lblSrKR1;
     }
 }

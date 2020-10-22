@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 26</value>
+    <value>3, 30</value>
   </data>
   <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -133,55 +133,55 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>191, 12</value>
+    <value>243, 15</value>
   </data>
   <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
   <data name="unDo3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="unDo3ToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo last action</value>
   </data>
   <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="cmsEditorHotkeys.AccessibleDescription" xml:space="preserve">
     <value>Show window with default hot-keys for the "Fast Colored Text Box"</value>
   </data>
   <data name="cmsEditorHotkeys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsEditorHotkeys.Text" xml:space="preserve">
     <value>Show Editor hotkeys</value>
   </data>
   <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="cmsCodeBlocksFold.AccessibleDescription" xml:space="preserve">
     <value>Code Blocks are G-Code surrounded by XML-Elements like "Group" of "Figure"</value>
   </data>
   <data name="foldCodeBlocks1stLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>260, 26</value>
   </data>
   <data name="foldCodeBlocks1stLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 1st level</value>
   </data>
   <data name="foldCodeBlocks2ndLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>260, 26</value>
   </data>
   <data name="foldCodeBlocks2ndLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 2nd level</value>
   </data>
   <data name="foldCodeBlocks3rdLevelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>260, 26</value>
   </data>
   <data name="foldCodeBlocks3rdLevelToolStripMenuItem.Text" xml:space="preserve">
     <value>Fold code blocks 3rd level</value>
   </data>
   <data name="expandCodeBlocksToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 22</value>
+    <value>260, 26</value>
   </data>
   <data name="expandCodeBlocksToolStripMenuItem1.Text" xml:space="preserve">
     <value>Expand code blocks</value>
@@ -190,7 +190,7 @@
     <value>False</value>
   </data>
   <data name="cmsCodeBlocksFold.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeBlocksFold.Text" xml:space="preserve">
     <value>Fold Code Blocks</value>
@@ -199,25 +199,25 @@
     <value>Code Blocks are G-Code surrounded by XML-Elements like "Group" of "Figure"</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockMostUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 22</value>
+    <value>335, 26</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockMostUp.Text" xml:space="preserve">
     <value>Move selected code block most up</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 22</value>
+    <value>335, 26</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockUp.Text" xml:space="preserve">
     <value>Move selected code block up</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 22</value>
+    <value>335, 26</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockDown.Text" xml:space="preserve">
     <value>Move selected code block down</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockMostDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 22</value>
+    <value>335, 26</value>
   </data>
   <data name="cmsFCTBMoveSelectedCodeBlockMostDown.Text" xml:space="preserve">
     <value>Move selected code block most down</value>
@@ -226,79 +226,79 @@
     <value>False</value>
   </data>
   <data name="cmsCodeBlocksMove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeBlocksMove.Text" xml:space="preserve">
     <value>Move Code Blocks</value>
   </data>
   <data name="cmsCodeBlocksSortReverse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortReverse.Text" xml:space="preserve">
     <value>Reverse sort order</value>
   </data>
   <data name="cmsCodeBlocksSortById.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortById.Text" xml:space="preserve">
     <value>Sort by 'Id'</value>
   </data>
   <data name="cmsCodeBlocksSortByColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByColor.Text" xml:space="preserve">
     <value>Sort by 'Pen Color'</value>
   </data>
   <data name="sortByPenWidthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="sortByPenWidthToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by 'Pen Width'</value>
   </data>
   <data name="sortByLayerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="sortByLayerToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by 'Layer'</value>
   </data>
   <data name="sortByTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="sortByTypeToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by 'Type'</value>
   </data>
   <data name="cmsCodeBlocksSortByGeometry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByGeometry.Text" xml:space="preserve">
     <value>Sort by 'Geometry'</value>
   </data>
   <data name="cmsCodeBlocksSortByToolNr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByToolNr.Text" xml:space="preserve">
     <value>Sort by 'ToolNr'</value>
   </data>
   <data name="cmsCodeBlocksSortByToolName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByToolName.Text" xml:space="preserve">
     <value>Sort by 'ToolName'</value>
   </data>
   <data name="cmsCodeBlocksSortByCodeSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByCodeSize.Text" xml:space="preserve">
     <value>Sort by 'CodeSize'</value>
   </data>
   <data name="cmsCodeBlocksSortByCodeArea.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByCodeArea.Text" xml:space="preserve">
     <value>Sort by 'CodeArea'</value>
   </data>
   <data name="cmsCodeBlocksSortByDistance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="cmsCodeBlocksSortByDistance.Text" xml:space="preserve">
     <value>Sort by Distance</value>
@@ -310,7 +310,7 @@
     <value>False</value>
   </data>
   <data name="cmsCodeBlocksSort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeBlocksSort.Text" xml:space="preserve">
     <value>Sort Code Blocks</value>
@@ -319,7 +319,7 @@
     <value>False</value>
   </data>
   <data name="cmsCodeBlocksRemoveGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeBlocksRemoveGroup.Text" xml:space="preserve">
     <value>Remove 'Group' XML-Tags</value>
@@ -328,19 +328,19 @@
     <value>False</value>
   </data>
   <data name="cmsCodeBlocksRemoveAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeBlocksRemoveAll.Text" xml:space="preserve">
     <value>Remove All XML-Tags</value>
   </data>
   <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="cmsEditMode.AccessibleDescription" xml:space="preserve">
     <value>In Edit-Mode automatic selection of groups is disabled</value>
   </data>
   <data name="cmsEditMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsEditMode.Text" xml:space="preserve">
     <value>Toggle Edit Mode</value>
@@ -349,7 +349,7 @@
     <value>Select complete code</value>
   </data>
   <data name="cmsCodeSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeSelect.Text" xml:space="preserve">
     <value>Select All</value>
@@ -358,7 +358,7 @@
     <value>Copy selection to clipboard</value>
   </data>
   <data name="cmsCodeCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeCopy.Text" xml:space="preserve">
     <value>Copy to clipboard</value>
@@ -367,7 +367,7 @@
     <value>Clear editor and paste from clipboard</value>
   </data>
   <data name="cmsCodePaste.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodePaste.Text" xml:space="preserve">
     <value>Paste from clipboard</value>
@@ -376,7 +376,7 @@
     <value>Insert "Pen up" G-Code in front of current line</value>
   </data>
   <data name="cmsCodePasteSpecial1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodePasteSpecial1.Text" xml:space="preserve">
     <value>Insert 'PenUp'</value>
@@ -385,19 +385,19 @@
     <value>Insert "Pen down" G-Code in front of current line</value>
   </data>
   <data name="cmsCodePasteSpecial2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodePasteSpecial2.Text" xml:space="preserve">
     <value>Insert 'PenDown'</value>
   </data>
   <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="cmsFindDialog.AccessibleDescription" xml:space="preserve">
     <value>Open "Find Dialog" from "Fast Colored Text Box"</value>
   </data>
   <data name="cmsFindDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsFindDialog.Text" xml:space="preserve">
     <value>Find Dialog</value>
@@ -406,16 +406,16 @@
     <value>Open "Replace Dialog" from "Fast Colored Text Box"</value>
   </data>
   <data name="cmsReplaceDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsReplaceDialog.Text" xml:space="preserve">
     <value>Replace dialog</value>
   </data>
   <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="cmsCodeSendLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCodeSendLine.Text" xml:space="preserve">
     <value>Send marked line towards GRBL</value>
@@ -424,7 +424,7 @@
     <value>False</value>
   </data>
   <data name="cmsCommentOut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsCommentOut.Text" xml:space="preserve">
     <value>Comment out unknown G-Code</value>
@@ -436,13 +436,13 @@
     <value>Process G-Code from editor to update 2D-View</value>
   </data>
   <data name="cmsUpdate2DView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>264, 26</value>
   </data>
   <data name="cmsUpdate2DView.Text" xml:space="preserve">
     <value>Update 2D view</value>
   </data>
   <data name="cmsFCTB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 430</value>
+    <value>265, 502</value>
   </data>
   <data name="&gt;&gt;cmsFCTB.Name" xml:space="preserve">
     <value>cmsFCTB</value>
@@ -460,7 +460,10 @@
     <value>Tab=IndentIncrease, Escape=ClearHints, PgUp=GoPageUp, PgDn=GoPageDown, End=GoEnd, Home=GoHome, Left=GoLeft, Up=GoUp, Right=GoRight, Down=GoDown, Ins=ReplaceMode, Del=DeleteCharRight, F3=FindNext, Shift+Tab=IndentDecrease, Shift+PgUp=GoPageUpWithSelection, Shift+PgDn=GoPageDownWithSelection, Shift+End=GoEndWithSelection, Shift+Home=GoHomeWithSelection, Shift+Left=GoLeftWithSelection, Shift+Up=GoUpWithSelection, Shift+Right=GoRightWithSelection, Shift+Down=GoDownWithSelection, Shift+Ins=Paste, Shift+Del=Cut, Ctrl+Back=ClearWordLeft, Ctrl+Space=AutocompleteMenu, Ctrl+End=GoLastLine, Ctrl+Home=GoFirstLine, Ctrl+Ins=Copy, Ctrl+Del=ClearWordRight, Ctrl+0=ZoomNormal, Ctrl+A=SelectAll, Ctrl+B=BookmarkLine, Ctrl+C=Copy, Ctrl+E=MacroExecute, Ctrl+F=FindDialog, Ctrl+G=GoToDialog, Ctrl+H=ReplaceDialog, Ctrl+I=AutoIndentChars, Ctrl+M=MacroRecord, Ctrl+N=GoNextBookmark, Ctrl+R=Redo, Ctrl+U=UpperCase, Ctrl+V=Paste, Ctrl+X=Cut, Ctrl+Z=Undo, Ctrl+Add=ZoomIn, Ctrl+Subtract=ZoomOut, Ctrl+Shift+End=GoLastLineWithSelection, Ctrl+Shift+Home=GoFirstLineWithSelection, Ctrl+Shift+B=UnbookmarkLine, Ctrl+Shift+C=CommentSelected, Ctrl+Shift+N=GoPrevBookmark, Ctrl+Shift+U=LowerCase, Alt+Back=Undo, Alt+Up=MoveSelectedLinesUp, Alt+Down=MoveSelectedLinesDown, Alt+F=FindChar</value>
   </data>
   <data name="fCTBCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 391</value>
+    <value>4, 483</value>
+  </data>
+  <data name="fCTBCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="fCTBCode.ServiceColors" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -481,7 +484,7 @@
 </value>
   </data>
   <data name="fCTBCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 155</value>
+    <value>443, 194</value>
   </data>
   <data name="fCTBCode.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -505,10 +508,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSimulatePause.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 62</value>
+    <value>211, 76</value>
+  </data>
+  <data name="btnSimulatePause.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnSimulatePause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 23</value>
+    <value>53, 28</value>
   </data>
   <data name="btnSimulatePause.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -535,10 +541,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSimulateSlower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 62</value>
+    <value>325, 76</value>
+  </data>
+  <data name="btnSimulateSlower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnSimulateSlower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 23</value>
+    <value>53, 28</value>
   </data>
   <data name="btnSimulateSlower.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -571,10 +580,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSimulateFaster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 62</value>
+    <value>269, 76</value>
+  </data>
+  <data name="btnSimulateFaster.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnSimulateFaster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 23</value>
+    <value>53, 28</value>
   </data>
   <data name="btnSimulateFaster.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -604,10 +616,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSimulate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 62</value>
+    <value>4, 76</value>
+  </data>
+  <data name="btnSimulate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnSimulate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 23</value>
+    <value>259, 28</value>
   </data>
   <data name="btnSimulate.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -634,10 +649,13 @@
     <value>NoControl</value>
   </data>
   <data name="lbInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 85</value>
+    <value>5, 105</value>
+  </data>
+  <data name="lbInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lbInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 21</value>
+    <value>373, 26</value>
   </data>
   <data name="lbInfo.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -661,10 +679,13 @@
     <value>NoControl</value>
   </data>
   <data name="pbBuffer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 49</value>
+    <value>292, 60</value>
+  </data>
+  <data name="pbBuffer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pbBuffer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 12</value>
+    <value>85, 15</value>
   </data>
   <data name="pbBuffer.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -685,10 +706,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnStreamStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 15</value>
+    <value>80, 18</value>
+  </data>
+  <data name="btnStreamStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnStreamStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>31, 28</value>
   </data>
   <data name="btnStreamStop.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -712,10 +736,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnStreamCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 39</value>
+    <value>4, 48</value>
+  </data>
+  <data name="btnStreamCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnStreamCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>107, 28</value>
   </data>
   <data name="btnStreamCheck.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -745,10 +772,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblRemaining.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 67</value>
+    <value>305, 82</value>
+  </data>
+  <data name="lblRemaining.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblRemaining.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
+    <value>0, 17</value>
   </data>
   <data name="lblRemaining.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -769,10 +799,13 @@
     <value>NoControl</value>
   </data>
   <data name="pbFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 26</value>
+    <value>119, 32</value>
+  </data>
+  <data name="pbFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pbFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 35</value>
+    <value>259, 43</value>
   </data>
   <data name="pbFile.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -796,10 +829,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblElapsed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>169, 13</value>
+    <value>225, 16</value>
+  </data>
+  <data name="lblElapsed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblElapsed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
+    <value>39, 17</value>
   </data>
   <data name="lblElapsed.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -826,10 +862,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblFileProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 13</value>
+    <value>116, 16</value>
+  </data>
+  <data name="lblFileProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblFileProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
+    <value>65, 17</value>
   </data>
   <data name="lblFileProgress.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -853,10 +892,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnStreamStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
+    <value>4, 18</value>
+  </data>
+  <data name="btnStreamStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnStreamStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 23</value>
+    <value>68, 28</value>
   </data>
   <data name="btnStreamStart.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -877,10 +919,13 @@
     <value>12</value>
   </data>
   <data name="tbFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 85</value>
+    <value>43, 105</value>
+  </data>
+  <data name="tbFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tbFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 20</value>
+    <value>333, 22</value>
   </data>
   <data name="tbFile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -904,10 +949,16 @@
     <value>Fill</value>
   </data>
   <data name="gBoxStream.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="gBoxStream.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBoxStream.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBoxStream.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 110</value>
+    <value>443, 135</value>
   </data>
   <data name="gBoxStream.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -931,10 +982,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnLimitExceed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 59</value>
+    <value>144, 73</value>
+  </data>
+  <data name="btnLimitExceed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnLimitExceed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
+    <value>31, 28</value>
   </data>
   <data name="btnLimitExceed.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -964,10 +1018,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOffsetApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 43</value>
+    <value>84, 53</value>
+  </data>
+  <data name="btnOffsetApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOffsetApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 24</value>
+    <value>116, 30</value>
   </data>
   <data name="btnOffsetApply.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -997,10 +1054,13 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 28</value>
+    <value>80, 34</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
+    <value>48, 15</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1027,10 +1087,13 @@
     <value>Microsoft Sans Serif, 7pt</value>
   </data>
   <data name="tbOffsetY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 25</value>
+    <value>148, 31</value>
+  </data>
+  <data name="tbOffsetY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tbOffsetY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 18</value>
+    <value>51, 21</value>
   </data>
   <data name="tbOffsetY.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1063,10 +1126,13 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 11</value>
+    <value>80, 14</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
+    <value>49, 15</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1093,10 +1159,13 @@
     <value>Microsoft Sans Serif, 7pt</value>
   </data>
   <data name="tbOffsetX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 8</value>
+    <value>148, 10</value>
+  </data>
+  <data name="tbOffsetX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tbOffsetX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 18</value>
+    <value>51, 21</value>
   </data>
   <data name="tbOffsetX.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1126,10 +1195,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 45</value>
+    <value>47, 55</value>
+  </data>
+  <data name="rBOrigin9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1153,10 +1225,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 45</value>
+    <value>27, 55</value>
+  </data>
+  <data name="rBOrigin8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1180,10 +1255,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 45</value>
+    <value>7, 55</value>
+  </data>
+  <data name="rBOrigin7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1207,10 +1285,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 30</value>
+    <value>47, 37</value>
+  </data>
+  <data name="rBOrigin6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1234,10 +1315,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 30</value>
+    <value>27, 37</value>
+  </data>
+  <data name="rBOrigin5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1261,10 +1345,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 30</value>
+    <value>7, 37</value>
+  </data>
+  <data name="rBOrigin4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1288,10 +1375,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 15</value>
+    <value>47, 18</value>
+  </data>
+  <data name="rBOrigin3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1315,10 +1405,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 15</value>
+    <value>27, 18</value>
+  </data>
+  <data name="rBOrigin2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1342,10 +1435,13 @@
     <value>NoControl</value>
   </data>
   <data name="rBOrigin1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 15</value>
+    <value>7, 18</value>
+  </data>
+  <data name="rBOrigin1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rBOrigin1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
+    <value>17, 16</value>
   </data>
   <data name="rBOrigin1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1363,10 +1459,16 @@
     <value>13</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 14</value>
+    <value>173, 17</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 71</value>
+    <value>205, 87</value>
   </data>
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1390,13 +1492,16 @@
     <value>Consolas, 7.75pt</value>
   </data>
   <data name="lbDimension.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 15</value>
+    <value>0, 18</value>
+  </data>
+  <data name="lbDimension.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="lbDimension.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lbDimension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 66</value>
+    <value>172, 80</value>
   </data>
   <data name="lbDimension.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1420,10 +1525,16 @@
     <value>Fill</value>
   </data>
   <data name="gBoxDimension.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 300</value>
+    <value>4, 370</value>
+  </data>
+  <data name="gBoxDimension.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBoxDimension.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBoxDimension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 85</value>
+    <value>443, 105</value>
   </data>
   <data name="gBoxDimension.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1450,10 +1561,13 @@
     <value>NoControl</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 5</value>
+    <value>356, 6</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 13</value>
+    <value>20, 17</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -1477,10 +1591,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideRapid0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 14</value>
+    <value>3, 17</value>
+  </data>
+  <data name="btnOverrideRapid0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideRapid0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>87, 25</value>
   </data>
   <data name="btnOverrideRapid0.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -1507,10 +1624,13 @@
     <value>NoControl</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 5</value>
+    <value>287, 6</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
+    <value>33, 17</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -1534,10 +1654,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideRapid2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 14</value>
+    <value>179, 17</value>
+  </data>
+  <data name="btnOverrideRapid2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideRapid2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>87, 25</value>
   </data>
   <data name="btnOverrideRapid2.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -1564,10 +1687,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblOverrideRapidValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 5</value>
+    <value>323, 6</value>
+  </data>
+  <data name="lblOverrideRapidValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOverrideRapidValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
+    <value>32, 17</value>
   </data>
   <data name="lblOverrideRapidValue.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -1591,10 +1717,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideRapid1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 14</value>
+    <value>91, 17</value>
+  </data>
+  <data name="btnOverrideRapid1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideRapid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>87, 25</value>
   </data>
   <data name="btnOverrideRapid1.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -1615,10 +1744,16 @@
     <value>5</value>
   </data>
   <data name="gBOverrideRGB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 53</value>
+    <value>3, 65</value>
+  </data>
+  <data name="gBOverrideRGB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBOverrideRGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBOverrideRGB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 36</value>
+    <value>379, 44</value>
   </data>
   <data name="gBOverrideRGB.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -1645,10 +1780,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSpindle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 14</value>
+    <value>3, 17</value>
+  </data>
+  <data name="btnOverrideSpindle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSpindle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 23</value>
+    <value>153, 28</value>
   </data>
   <data name="btnOverrideSpindle.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -1681,10 +1819,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideMist.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 14</value>
+    <value>271, 17</value>
+  </data>
+  <data name="btnOverrideMist.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideMist.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>100, 28</value>
   </data>
   <data name="btnOverrideMist.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -1717,10 +1858,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFlood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 14</value>
+    <value>161, 17</value>
+  </data>
+  <data name="btnOverrideFlood.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFlood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>100, 28</value>
   </data>
   <data name="btnOverrideFlood.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -1744,10 +1888,16 @@
     <value>2</value>
   </data>
   <data name="gBOverrideASGB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 133</value>
+    <value>3, 164</value>
+  </data>
+  <data name="gBOverrideASGB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBOverrideASGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBOverrideASGB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 40</value>
+    <value>379, 49</value>
   </data>
   <data name="gBOverrideASGB.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -1774,10 +1924,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblStatusFeed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 20</value>
+    <value>287, 25</value>
+  </data>
+  <data name="lblStatusFeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblStatusFeed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
+    <value>78, 17</value>
   </data>
   <data name="lblStatusFeed.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -1807,10 +1960,13 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 5</value>
+    <value>287, 6</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
+    <value>33, 17</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -1837,10 +1993,13 @@
     <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 5</value>
+    <value>356, 6</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 13</value>
+    <value>20, 17</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -1867,10 +2026,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblOverrideFRValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 5</value>
+    <value>323, 6</value>
+  </data>
+  <data name="lblOverrideFRValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOverrideFRValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
+    <value>32, 17</value>
   </data>
   <data name="lblOverrideFRValue.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -1894,10 +2056,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFR1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 14</value>
+    <value>208, 17</value>
+  </data>
+  <data name="btnOverrideFR1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFR1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideFR1.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -1921,10 +2086,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFR2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 14</value>
+    <value>161, 17</value>
+  </data>
+  <data name="btnOverrideFR2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFR2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
+    <value>47, 25</value>
   </data>
   <data name="btnOverrideFR2.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -1948,10 +2116,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFR0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 14</value>
+    <value>105, 17</value>
+  </data>
+  <data name="btnOverrideFR0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFR0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideFR0.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -1975,10 +2146,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFR4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 14</value>
+    <value>3, 17</value>
+  </data>
+  <data name="btnOverrideFR4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFR4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideFR4.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -2002,10 +2176,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideFR3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 14</value>
+    <value>59, 17</value>
+  </data>
+  <data name="btnOverrideFR3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideFR3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
+    <value>47, 25</value>
   </data>
   <data name="btnOverrideFR3.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -2026,10 +2203,16 @@
     <value>8</value>
   </data>
   <data name="gBOverrideFRGB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 13</value>
+    <value>3, 16</value>
+  </data>
+  <data name="gBOverrideFRGB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBOverrideFRGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBOverrideFRGB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 36</value>
+    <value>379, 44</value>
   </data>
   <data name="gBOverrideFRGB.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -2056,10 +2239,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblStatusSpeed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 19</value>
+    <value>287, 23</value>
+  </data>
+  <data name="lblStatusSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblStatusSpeed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 13</value>
+    <value>89, 17</value>
   </data>
   <data name="lblStatusSpeed.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -2089,10 +2275,13 @@
     <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 5</value>
+    <value>287, 6</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
+    <value>33, 17</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -2119,10 +2308,13 @@
     <value>NoControl</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 5</value>
+    <value>356, 6</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 13</value>
+    <value>20, 17</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -2149,10 +2341,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblOverrideSSValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 5</value>
+    <value>323, 6</value>
+  </data>
+  <data name="lblOverrideSSValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOverrideSSValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
+    <value>32, 17</value>
   </data>
   <data name="lblOverrideSSValue.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -2176,10 +2371,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 14</value>
+    <value>161, 17</value>
+  </data>
+  <data name="btnOverrideSS2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSS2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
+    <value>47, 25</value>
   </data>
   <data name="btnOverrideSS2.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -2203,10 +2401,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSS0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 14</value>
+    <value>105, 17</value>
+  </data>
+  <data name="btnOverrideSS0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSS0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideSS0.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -2230,10 +2431,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSS1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 14</value>
+    <value>208, 17</value>
+  </data>
+  <data name="btnOverrideSS1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSS1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideSS1.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -2257,10 +2461,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSS4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 14</value>
+    <value>3, 17</value>
+  </data>
+  <data name="btnOverrideSS4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSS4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>56, 25</value>
   </data>
   <data name="btnOverrideSS4.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -2284,10 +2491,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideSS3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 14</value>
+    <value>59, 17</value>
+  </data>
+  <data name="btnOverrideSS3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnOverrideSS3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
+    <value>47, 25</value>
   </data>
   <data name="btnOverrideSS3.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -2308,10 +2518,16 @@
     <value>8</value>
   </data>
   <data name="gBOverrideSSGB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 93</value>
+    <value>3, 114</value>
+  </data>
+  <data name="gBOverrideSSGB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBOverrideSSGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBOverrideSSGB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 36</value>
+    <value>379, 44</value>
   </data>
   <data name="gBOverrideSSGB.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -2335,10 +2551,16 @@
     <value>Fill</value>
   </data>
   <data name="gBoxOverride.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 119</value>
+    <value>4, 147</value>
+  </data>
+  <data name="gBoxOverride.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gBoxOverride.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gBoxOverride.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 175</value>
+    <value>443, 215</value>
   </data>
   <data name="gBoxOverride.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -2364,11 +2586,14 @@
   <data name="tLPLinks.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="tLPLinks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="tLPLinks.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tLPLinks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 549</value>
+    <value>338, 681</value>
   </data>
   <data name="tLPLinks.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -2422,10 +2647,13 @@
     <value>NoControl</value>
   </data>
   <data name="cBServoButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
+    <value>4, 18</value>
+  </data>
+  <data name="cBServoButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBServoButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 17</value>
+    <value>154, 21</value>
   </data>
   <data name="cBServoButtons.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -2449,10 +2677,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnPenDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 32</value>
+    <value>112, 39</value>
+  </data>
+  <data name="btnPenDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnPenDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 22</value>
+    <value>100, 27</value>
   </data>
   <data name="btnPenDown.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -2482,10 +2713,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnPenUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 32</value>
+    <value>4, 39</value>
+  </data>
+  <data name="btnPenUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnPenUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 22</value>
+    <value>100, 27</value>
   </data>
   <data name="btnPenUp.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -2515,10 +2749,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 87</value>
+    <value>181, 107</value>
+  </data>
+  <data name="btnJogStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 41</value>
+    <value>121, 50</value>
   </data>
   <data name="btnJogStop.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -2545,10 +2782,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogZeroA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 35</value>
+    <value>115, 43</value>
+  </data>
+  <data name="btnJogZeroA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogZeroA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>53, 25</value>
   </data>
   <data name="btnJogZeroA.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2575,10 +2815,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogZeroX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 14</value>
+    <value>5, 17</value>
+  </data>
+  <data name="btnJogZeroX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogZeroX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>53, 25</value>
   </data>
   <data name="btnJogZeroX.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2605,10 +2848,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogZeroXY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 35</value>
+    <value>5, 43</value>
+  </data>
+  <data name="btnJogZeroXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogZeroXY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 20</value>
+    <value>108, 25</value>
   </data>
   <data name="btnJogZeroXY.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2635,10 +2881,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogZeroY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 14</value>
+    <value>60, 17</value>
+  </data>
+  <data name="btnJogZeroY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogZeroY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>53, 25</value>
   </data>
   <data name="btnJogZeroY.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2665,10 +2914,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnJogZeroZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 14</value>
+    <value>115, 17</value>
+  </data>
+  <data name="btnJogZeroZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnJogZeroZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>53, 25</value>
   </data>
   <data name="btnJogZeroZ.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2698,10 +2950,13 @@
     <value>NoControl</value>
   </data>
   <data name="cBMoveG0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 0</value>
+    <value>77, 0</value>
+  </data>
+  <data name="cBMoveG0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBMoveG0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 17</value>
+    <value>76, 21</value>
   </data>
   <data name="cBMoveG0.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -2722,10 +2977,16 @@
     <value>5</value>
   </data>
   <data name="gB_Jog0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 73</value>
+    <value>0, 90</value>
+  </data>
+  <data name="gB_Jog0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gB_Jog0.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gB_Jog0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 54</value>
+    <value>173, 66</value>
   </data>
   <data name="gB_Jog0.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -2749,10 +3010,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblTool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 57</value>
+    <value>153, 70</value>
+  </data>
+  <data name="lblTool.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblTool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 13</value>
+    <value>147, 16</value>
   </data>
   <data name="lblTool.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -2779,10 +3043,13 @@
     <value>NoControl</value>
   </data>
   <data name="cBTool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 55</value>
+    <value>4, 68</value>
+  </data>
+  <data name="cBTool.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBTool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 17</value>
+    <value>138, 21</value>
   </data>
   <data name="cBTool.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -2809,10 +3076,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblSpeed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 36</value>
+    <value>165, 44</value>
+  </data>
+  <data name="lblSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblSpeed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
+    <value>49, 17</value>
   </data>
   <data name="lblSpeed.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -2833,10 +3103,13 @@
     <value>7</value>
   </data>
   <data name="tBSpeed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 33</value>
+    <value>119, 41</value>
+  </data>
+  <data name="tBSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tBSpeed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
+    <value>45, 22</value>
   </data>
   <data name="tBSpeed.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -2863,10 +3136,13 @@
     <value>NoControl</value>
   </data>
   <data name="cBCoolant.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 34</value>
+    <value>221, 42</value>
+  </data>
+  <data name="cBCoolant.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBCoolant.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
+    <value>78, 21</value>
   </data>
   <data name="cBCoolant.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -2893,10 +3169,13 @@
     <value>NoControl</value>
   </data>
   <data name="cBSpindle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 35</value>
+    <value>4, 43</value>
+  </data>
+  <data name="cBSpindle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBSpindle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 17</value>
+    <value>103, 21</value>
   </data>
   <data name="cBSpindle.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -2920,16 +3199,16 @@
     <value>Fill</value>
   </data>
   <data name="gB_Jogging.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>4, 0</value>
   </data>
   <data name="gB_Jogging.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 0</value>
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="gB_Jogging.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 0</value>
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="gB_Jogging.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 130</value>
+    <value>307, 160</value>
   </data>
   <data name="gB_Jogging.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -2957,29 +3236,34 @@
   </data>
   <data name="virtualJoystickA.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7Zm9bcMwEEa1QcpUAVy5CeAmVSq3miFAUmaA
-        gK0HCcAx0nOBDMFNmO+o6ExBrGzqY6Ez8CDx+PN4NERQ9oBP6sSQUuKi4uingguoiEMacR8qHW4hOIw9
-        wlHEVFxWBkxCrh7XcoBbcRhXEslJ/cdUnAPI1EE2C1uI55XMILk5rmKPWclVZrVY9mKQW3CzEGPJmHNc
-        7sE1wMLENFTcCZnFC5WFOPgDNg5UxAMe+EfsXOsOrVBx9A9pdMcsniZwxAZyqnZqgYqlEIOITxAeUaaL
-        cUX2EnOh3qkFCzETE9NQcSck408qKo7+KRdcqDdsjYqnM9cZz3G9YWtUnAPxjDPX26rRFqj4euaqN2yN
-        imuVW2JiGiruhGT8TWUhDv4DG0i9YWtUHP0zzlxffLEUYtibmImJaai4E5LxL5WrOF7whviON8SpIvrX
-        XOnCulMLVBz8JT/D3v/kiukMJrF6x3tRsffTlz6LM1gFV5YbouJyaaN/T6Oeweod70XFZTAGbJ9FeQuq
-        YgYmpmFiGiamYWIaJqah4k5IxutD95aYmIaJaexY3AnJuP5j51aYmIaJaexY3AnJuP4H81aYmIaJaexY
-        3AnJmIuJaZiYxo7FfIb0B2lihZdfDE3mAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACgAAACACAYAAAB5sSvuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJFSURBVHhe7dsxbtswGMVx3SBjpwCdshSoh065gQefoIAz
+        9gAB1x7EAI/RXRfoIXgT9X0MRUoVizZ4qfQFeAH+iE1R0S+MYltGMuBjct4wTZPPGnBs4oDbUxqmc7kf
+        cbu385s1H/s8TOm3bcWEDREQlHHYMAZkk4ALGF/u9NbZsQLqLcYKOBgKnXF7T2DA8e1Y9tkMy20NuJDb
+        d7MXMC/MC6KWj1sqY+uJeZnRHuegrdp8WtVzcbGKxdQGvCUgm4BsFeg8035x2QqY4h0egx5eNqaP5XHw
+        Do+D2x33qgEBChEV4Bg+4BEdk/L4582Oe9WAeeBBwNf2R6C/c7Cz0UMCsgnIVoHOsxX85rIGHE9VHMb+
+        5COqwBRPuC4+ucJZC+A9Xslc8uXmOX7tTj6iBkwz6oKnu8tq0pE1oK1gvnOP597+5COqwN5GDwnIJiBb
+        BTrPVvDmshUwxU94NnneTDqyBkxPuHpDboF54FnA1/begP4SkE1Atgp0nq3gT5c1YPpe3g98xDXJYtJ4
+        nSfhknQxvlMVOIbrNNogoCH+qBNSvOJ6+XoIzvoH4CNe4dzK9XIb36u/A9N8+4anQfvNajvvUQVuzkGc
+        e/ZjzSu4HO98kf9ZA3Y2ekhANgHZBGQTkE1ANgHZBGQTkE1ANgHZBGR7P0Dn2Qpu3zz0kIBsArIJyCYg
+        m4BsFeg8W8H+H9YcnYBsArIJyCYgm4BsFeg8W8H+P5wcnYBsArIJyCYgm4BsFeg8W0GfCcgmIJuAbAKy
+        CchWgX4bpl/q76YzjVB8FgAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="virtualJoystickA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 3</value>
+    <value>218, 5</value>
+  </data>
+  <data name="virtualJoystickA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="virtualJoystickA.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 400</value>
+    <value>533, 492</value>
   </data>
   <data name="virtualJoystickA.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>25, 100</value>
+    <value>33, 123</value>
   </data>
   <data name="virtualJoystickA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 104</value>
+    <value>40, 128</value>
   </data>
   <data name="virtualJoystickA.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -3001,55 +3285,67 @@
   </data>
   <data name="virtualJoystickXY.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdASURBVHhe7doxjltXEoXh3oHDiQZwpGQAJ44mctprMOAJ
-        tQCDqRcigMtwzg14EdwJp4rnUT4s/zNX5ae2r56ugQ9qsk73fXWuu6EG9BL/3Zapvdxut2VGTxd0PeuN
-        0yVeX19ur/HxpXzC8uecX9Xro+Nz9Jvvn7LveO/R9WP++Lz8OOjF5RQv4gtd8+MI5p/n+PMRXnbY/ofP
-        rl8fncaF5euPFxPdZ+bjPDxd0OML5Y0+LmZd0OeT3y3Z9f0nVLx+XEp+I+Tr/C7z1+npgu6B7Qs8/biz
-        T1j+nPvlxE+o+0+prdd8z79b7rPgn5fZ8PzmMo91QZNbFzS5dUGTa13QFl4+E+q42rI8rJT7fvkM3vyC
-        Ludv4+/r8fH12/jl6h/xy9bzAyz/35te0PX8ze319O5+Qbqod/EL7Xf32fJp3vSC0vWSF/RdXMy7eL0u
-        qOsvuiB9N+X7p8sfH2L53zqdBx5WyvGBS8+6oMmtC5rcuqDJ/a0XtH3RrxZ1Uik3tn1NHla9w99/lXod
-        jWUu8LDqHf4+/gr+z/vHpwsvc0S9jsYyF3hY9Q5/v/0bhx/i9yVe5oh6HY1lLvCw6h2+PfT1h9vp/OPv
-        rw+u19FY5gIPq97hP9q/ceBljqjX0VjmAg+r3uG8wNH1OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+to
-        LHOBh1XvcF7g6HodjWUu8LDqHc4LuO3wLwbtUCnHvTjlxrazeVj1DucFnHIfvgi9nbgXp9xY5gIPq97h
-        vIBTTgVczv+JX2j/WMwsejtxL065scwFHla9w3kBp9yH2/X8r9vr6ed1QSBzgYdV73BewCmnAq6XdUEk
-        c4GHVe9wXsAppwLWBbHMBR5WvcN5AaccFzKb3k7ci1NuLHOBh1XvcF7AKceFzKa3E/filBvLXOBh1Tuc
-        F3DKcSGz6e3EvTjlxjIXeFj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGnHBfiMveW6MxKOd7DKce9OOXG
-        tmfkYdU7nBdwynEhTrnf3kTvGXgPpxz34pQby1zgYdU7nBdwynEhTrko9PrL7fXlp9tlK/d6/vd9dro8
-        l97RewbewynHvTjlxjIXeFj1DucFnHJciFPut9vl/Mv9d6Xz+Ve9vv+bh3yPy/8UvWfgPZxy3ItTbixz
-        gYdV73BewCnHhTjlfo2L0evHBd3Fd9XJXzf1noH3cMpxL065scwFHla9w3kBpxwX4pR7/pF2Pf90e/34
-        bx64/E/RewbewynHvTjlxjIXeFj1DucFnHJciFPuudjr5cOuH20PvWfgPZxy3ItTbixzgYdV73BewCnH
-        hTjluOC9es/AezjluBen3FjmAg+r3uG8gFOOC3HKccF79Z6B93DKcS9OubHMBR5WvcN5AaccF+KU44L3
-        6j0D7+GU416ccmOZCzyseofzAk45LsQpxwXv1XsG3sMpx7045cYyF3hY9Q7nBZxyXIhTjgveq/cMvIdT
-        jntxyo1lLvCw6h3OCzjluBCnHBe8V+8ZeA+nHPfilBvLXOBh1TucF3DKcSFOOS54r94z8B5OOe7FKTeW
-        ucDDqnc4L+CU40KcclzwXr1n4D2cctyLU24sc4GHVe9wXsApx4U45bjgvXrPwHs45bgXp9xY5gIPq97h
-        vIBTjgtxynHBe/WegfdwynEvTrmxzAUeVr3DeQGnHBfilOOC9+o9A+/hlONenHJjmQs8rHqH8wJOOS7E
-        KccF79V7Bt7DKce9OOXGMhd4WPUO5wWcclyIU44L3qv3DLyHU457ccqNZS7wsOodzgs45bgQpxwXvFfv
-        GXgPpxz34pQby1zgYdU7nBdwynEhTjkueK/eM/AeTjnuxSk3lrnAw6p3OC/glONCnHJc8F69Z+A9nHLc
-        i1NuLHOBh1XvcF7AKceFuMy9JTqzUo73cMpxL065se0ZeVj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGn
-        HBcym95O3ItTbixzgYdV73BewCnHhcymtxP34pQby1zgYdU7nBdwynEhs+ntxL045cYyF3hY9Q7nBZxy
-        XMhsejtxL065scwFHla9w3kBpxwXMpveTtyLU24sc4GHVe9wXsApx4XMprcT9+KUG8tc4GHVO5wXcMpx
-        IbPp7cS9OOXGMhd4WPUO5wWcclzIbHo7cS9OubHMBR5WvcN5Abcd/sWgHSrluBen3Nh2Ng+r3uG8wNH1
-        OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+toLHOBh1XvcF7g6HodjWUu8LDqHc4LHF2vo7HMBR5WvcN5
-        gaPrdTSWucDDqnc4L3B0vY7GMhd4WPUO5wWOrtfRWOYCD6ve4bzA0fU6Gstc4GHVOfxrRp1Uyo1tX5OH
-        1acevoytC5rcuqDJrQua3Lqgya0Lmty6oMmtC5rcuqDJvdkFLZ8PdVxtWR4uf791QZNbFzS5dUGTWxc0
-        uXVBk1sXNLl1QZNbFzS5jxe0zOrl9l9mAEjljOakXAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAIsAAACACAYAAAA73po8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAlhSURBVHhe7dwxbmTnEQRg3kChIgGOlAiQAkW6AQOdwMAq
+        1AGESXWQBeYYzucCOsTc5Ll76s3ukFvVel3gPpKzbeADuGyW2X/9P7iUYfsh/rWMsdHDsixj1J4+ltPn
+        F3SIj5fzw/K4/vkYHz8Pj7fv+Bj3F87x8emAu3w8fp6f4+Pr/V7nl7u+ufvr1+bH4XPwGC4PJf6c4VN+
+        YQQPN99gvC/XR5Cud3t1eUwxf/K18blDfj6+/nL/q/XfA3+4vLJ8ICFf3zyWO3H9KbH+hHn++ecP6IBH
+        8cXnnz6WCF8Hh/XRzGN5//Knx2P+AIh7vv0r6Pprx/NfMa4/iW5/qqSnjyV/suATX/y9Nb+zvE+XnxLr
+        T5RP9xuPIWe3v8/cZjY9ljEq81jGZvNYxmbzWMZm81jGZvZjWYPjHWP3WllzfFhB5tfxTr3aYzkfv4t/
+        dv8Rfz7/Z/3PZr5bjuenC46343UeSzyOwzGsj+V0+H45ffr8z/ia8ea8zmO5+HEeyzszj2Vs9iYey/zO
+        8j684mMZ7808lrHZPJax2TyWsdk8lrHZm38s6zcbXwHru4JMz/q9+LDiL/jneGH+XfRkJvBhxV8wDnj6
+        5fqNl8Ppy8OPHv8uetY748OKv+Cfy/n4y3IM81Behn8XPZkJfFjxF8zH8sPycPj98t8ifzz+9/K54fPv
+        oiczgQ8r/oLxWM7XB/L7cohHc3vw0effRU9mAh9W/AXXnyyXb/zDcjzzAsZ2/l304M7MIFuiggw/8PD5
+        d9GTmcCHFX9BfuDh8++iJzOBDyv+gvzAw+ffRU9mAh9W/AX5gYfPv4uezAQ+rPgL8gMPn38XPZkJfFjx
+        F+QHVtYFvymshwoyvHMFmZ51Pz6s+AvyAyvIfPxm+B3xzhVkejIT+LDiL8gPrCCDIs/Hn5aHw1+f/nyP
+        /I545woyPZkJfFjxF+QHVpCJIs9/LIdjmMfyBf8uejIT+LDiL8gPrCBzLfOveSyEfxc9mQl8WPEX5AdW
+        kLmWOY+F8e+iJzOBDyv+gvzACjLXMuexMP5d9GQm8GHFX5AfWEGGF3uP/I545woyPZkJfFjxF+QHVpDh
+        xd4jvyPeuYJMT2YCH1b8BfmBFWR4sffI74h3riDTk5nAhxV/QX5gBRle7D3yO+KdK8j0ZCbwYcVfkB9Y
+        QYYXe4/8jnjnCjI9mQl8WPEX5AdWkOHFKpl5K9h+FWR4FwoyvHMFmZ71THxY8RfkB1aQ4cUqyPzz6vzd
+        eRcKMrxzBZmezAQ+rPgL8gMryPBiFWTiws5/r/9fMb8tx/PNRZ4+XL4mHU43n39h/u68CwUZ3rmCTE9m
+        Ah9W/AX5gRVkeLEKMv8sp8OH5ZQXF4/mcPzf5XPpfPywHMPXfCjJ3513oSDDO1eQ6clM4MOKvyA/sIIM
+        L1ZBpnosvy0Ph4/r/27p8+dfmr8770JBhneuINOTmcCHFX9BfmAFGV6sgkzxWM7Xjz8uh3g018+/NH93
+        3oWCDO9cQaYnM4EPK/6C/MAKMrxYBZm4sOe/s8TvKvlXz+Uny+3nn13yS/F3510oyPDOFWR60JkZZEtU
+        kOEHVpDhxSrI8Avck78770JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QH
+        VpDhxSrI8Avck78770JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDh
+        xSrI8Avck78770JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI
+        8Avck78770JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avc
+        k78770JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck787
+        70JBhneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JB
+        hneuINOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JBhneu
+        INOTmcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JBhneuINOT
+        mcCHFX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JBhneuINOTmcCH
+        FX9BfmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JBhneuINOTmcCHFX9B
+        fmAFGV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSrI8Avck78770JBhneuINOTmcCHFX9BfmAF
+        GV6sggy/wD35u/MuFGR45woyPZkJfFjxF+QHVpDhxSqZeSvYfhVkeBcKMrxzBZme9Ux8WPEX5AdWkOHF
+        3iO/I965gkxPZgIfVvwF+YEVZHix98jviHeuINOTmcCHFX9BfmAFGV7sPfI74p0ryPRkJvBhxV+QH1hB
+        hhd7j/yOeOcKMj2ZCXxY8RfkB1aQ4cXeI78j3rmCTE9mAh9W/AX5gRVkeLH3yO+Id64g05OZwIcVf0F+
+        YAUZXuw98jvinSvI9GQm8GHFX5AfWEGGF3uP/I545woyPZkJfFjxF+QHVpDhxd4jvyPeuYJMT2YCH1b8
+        BfmBFWR4sffI74h3riDTk5nAhxV/QX5gBRle7D3yO+KdK8j0ZCbwYcVfkB9YWRf8prAeKsjwzhVketb9
+        +LDiL8gPPHz+XfRkJvBhxV+QH3j4/LvoyUzgw4q/ID/w8Pl30ZOZwIcVf0F+4OHz76InM4EPK/6C/MDD
+        599FT2YCH1b8BfmBh8+/i57MBD6s+AvyAw+ffxc9mQl8WPEX5AcePv8uejIT+LDiL8gPPHz+XfRkJvBh
+        xV+QH3j4/LvoyUzgw4q/ID/w8Pl30ZOZwIcVd8HxdbC+K8j0rN+LDyvOguPtmMcyNpvHMjabxzI2m8cy
+        NpvHMjabxzI2m8cyNpvHMjabxzI2m8cyNtv9sYz3jd1rZc3x4Ri35rGMzeaxjM3msYzN5rGMzeaxjM3m
+        sYzN5rGMzeaxjM3msYzN5rGMzT49ljH+3cPyf/nUaeuQGSctAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickXY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
   <data name="virtualJoystickXY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>5, 5</value>
+  </data>
+  <data name="virtualJoystickXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="virtualJoystickXY.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 400</value>
+    <value>533, 492</value>
   </data>
   <data name="virtualJoystickXY.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>25, 100</value>
+    <value>33, 123</value>
   </data>
   <data name="virtualJoystickXY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 104</value>
+    <value>139, 128</value>
   </data>
   <data name="virtualJoystickXY.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3071,32 +3367,37 @@
   </data>
   <data name="virtualJoystickZ.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC7dgD
-        FFpzkAI8RnddoIfgTVRSthkb1tJE/hrMAA+OKCpPVGBBTjp5pUZ0KSUsJmYaGiFKB3epl/exMOC/xGCS
-        1PXX+BgbE6SDNVkmoVeS6/xDbkaKUUcuaoyZOAek0iCySVhFPK5eJ4XN4yYmqVavOqvFss+Sb2H63Ikp
-        PraXyQhcDMPEjdBZvEBZiCMdZOOQDj7IvfcoO9d6QC1MzPSQ+nDM4mECR9lATsVBNTCxNjiq+CTCo7Th
-        YrlK9RoLsTyoBgsxEhfDMHEjtOJPKCZmesqNEMuJtTHxcOY6y31cTqyNiXOAz3LmelslbYGJr2eucmJt
-        TFzq3BIXwzBxI7TibygLcaQP2UDKibUxMdOznLm+8GJtcNybGImLYZi4EVrxL5SrmC/yhPguT4hDB9Nr
-        7gxxPagGJo50yfcw0U/uGM5gGisPvBcTEw1f+iTOyCqEebsiJp4vLdN76u0MVh54LyaeBznK9jlrb0FR
-        jMDFMFwMw8UwXAzDxTBM3AiteH3o3hIXw3AxjB2LG6EVl3/s3AoXw3AxjB2LG6EVl/9g3goXw3AxjB2L
-        G6EVY3ExDBfD2LEYT5f+AC66g1uv6ffSAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACgAAACACAYAAAB5sSvuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJHSURBVHhe7ZtNbtswEEZ1gyy7CpBVNgXqRVa5gRc+QQF3
+        2QME3OYgBniM7nmBHII3YWdo/kgVgzT4EmkCfAYeIA2H5sOIFkXDnuSVjDOllGzSBUM3dnKc4pSO5dzL
+        8ajzRxBcH7cSZu0lNqXoRUTIcqVjThQ5J/Ha4bPQ8dWjjl9ZCE4qJRzleFPBcvV03H/buuDsMroiuomg
+        vH+eSjLeqL0LagWvJ9c5VzvW80Hnj8Af+7iL8Ut7iS07WYKCKBREaYLGUdsHkywEo7+RG+b9tTHelfvg
+        jdyX1h23oguKkPNCEQzum6wkkpTjP1Ydt6IL5sA9Bd/Lq4L25uCg0QIURKEgShM0jlbwt0m6YDg0YxfG
+        yXvQBKM/yL74YEpOmQneypPMKW83j/7nMHkPumCsUidZ7k6LpD3pglrBfHIra+84eQ+a4KjRAhREoSBK
+        EzSOVvBikoVg9N9lNXlaJe1JF4y/ZPcmmBXMgScKvpevJmgPCqJQEKUJGkcr+GKSLhify/eBj7InmSWF
+        c02SLeksvhFNMLhzChoUUef/tIToz7JfPu8ip/yH4KM84VzKfrnHt+JtwViPL7IM6ierd96CJriagzL3
+        9LLmCs7jgzf5TLrgoNECFEShIAoFUSiIQkEUCqJQEIWCKBREoSAKBVG+jqBxtILrLw8tQEEUCqJQEIWC
+        KBREaYLG0QqOf1izNxREoSAKBVEoiEJBlCZoHK3g+A8ne0NBFAqiUBCFgigURGmCxtEK2oSCKBREoSAK
+        BVEoiNIE7TKlv2AppcMGMeFeAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 3</value>
+    <value>165, 5</value>
+  </data>
+  <data name="virtualJoystickZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="virtualJoystickZ.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 400</value>
+    <value>533, 492</value>
   </data>
   <data name="virtualJoystickZ.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>25, 100</value>
+    <value>33, 123</value>
   </data>
   <data name="virtualJoystickZ.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="virtualJoystickZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 104</value>
+    <value>40, 128</value>
   </data>
   <data name="virtualJoystickZ.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -3118,29 +3419,34 @@
   </data>
   <data name="virtualJoystickB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHNSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC6dgD
-        FFpzkAI8RnddoIfQTdRPOWZkWGjK2NJgMMCDI4rUAx0oMpIOr9iALsZYD5EEGgbOYyJ0scd7Xyj4C+9k
-        wdhjvTF+iV0Sesg4GQl8pSzxP4xrcD1fx7hIUgAdOCSMi98lGRZMjPHLGAvCzFe+XZNbly1yi5uSPHlt
-        TKJCJA1g40s1JhJPO2xCTIQddvwjdvy84B5EEugh9m6fJINsj814KBZpEQkPgmfJAYvvMa4qwRVdccz5
-        cpGWiaQWJlEhkgZwJx/VEEmgpzRwvpy4BJEM5/MR+6ScuASRpEA44ox/myUtRSTXM76cuASRlCbXwiQq
-        RNIA7uSrGhOJp3dsxnLiEkQS6Bln/GddCQ+C34qkFiZRIZIGcCc/1bhKwhlP8ic8yQ8TgV7TpPPzIi0i
-        8XROe4ToO00MZz7HyoUaREI0fEijJIHuXD6+E5HktyfQKfZy5pcLNYgkDwaPr5hsvJSiZG1MosIkKkyi
-        wiQqTKJCJA3gTuYPZWthEhUmUbFBSQO4k/KPL2tgEhUmUbFBSQO4k/IfLGtgEhUmUbFBSQO4k3qYRIVJ
-        VGxQUpcu/gJpkg0tHEBwvAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACEAAACACAYAAACFpAAkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIrSURBVHhe7ZoxbtswFIZ1g4ydAnTKUqAeOuUGHnyCAs7Y
+        AwRccxADPEZ3XaCH4E3U/zH8SRoikKCVRA6/gQ+gHx+pz08EJdme8FoGYFqWpR9FYi5WDu0lTMs5vfdo
+        twZ/luDL3JEzYlV/ir8nehAF0DE7YEkQcIhzwL9ACfswNq+149yJO4nJDgzOaO8hkcHcdX+KI7EquUsy
+        e1SCp50VN4pEZRuTwW5rAjRPRz3oaCRBJEGyxACY0Y9u3EkE/4Dd7Om9M3xN+8QD9on1wC0pEjio8yBJ
+        zO4LNhQkxfj31cAtKRIx8CSJFCgSfdZEo/MoJEEkQbLEAFglfnWjSMynbOXmdvJeZIngT3juOB0uYFQS
+        j7iCXuKt/tn/bCbvRZEIPPAFW/flLmlvioRVIr55xLWinbwXWaLVeRSSIJIgWWIArBK3btxJBP8Nu+br
+        KmlvikR4wV016CoRA6+SSIEhJPogCSIJkiUGwCrxpxtFIryl7yOecY9ZJc1XJuFxoIpvSJaY3XWZLQgZ
+        53/nhOCveB657iZgfELiGVfWW3oeKfEt+VgisH3Dlm6ruQzeiiyxWhNYC3YKYiXqeGOS/6VINDqPQhJE
+        EkQSRBJEEkQSRBJEEkQSRBJEEmQsiQGwSqy/vDgKSRBJEEkQSRBJkCwxAFaJ9g+nRyAJIgkiCSIJIgmS
+        JQbAKtH+w+YRSIJIgkiCSIJIgmSJAbBK9EMSRBJEEkQSRBIkS/RlWv4COA5TGDor96gAAAAASUVORK5C
+        YII=
 </value>
   </data>
   <data name="virtualJoystickB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 3</value>
+    <value>271, 5</value>
+  </data>
+  <data name="virtualJoystickB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="virtualJoystickB.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 400</value>
+    <value>533, 492</value>
   </data>
   <data name="virtualJoystickB.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>25, 100</value>
+    <value>33, 123</value>
   </data>
   <data name="virtualJoystickB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 104</value>
+    <value>33, 128</value>
   </data>
   <data name="virtualJoystickB.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -3162,29 +3468,33 @@
   </data>
   <data name="virtualJoystickC.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05Zc4YC6dgD
-        FFpzkAI8RnddoIfQTdRP2WFsmC3A2NJgMMCDI5HUCxMoMpIOj9yALudcD5Ek6gchIpC6fMLzqBT8yVBT
-        FjxhvVFMJDHcghFCvhKuk4X+QeoHWXmxQ0wkZQIJAQtfF7dICIIOIi0mkpI0vILJW6cUqSB3WGxWO8yN
-        kivgEhMiaQAbX6oxkUTaYRMikHbYUI/Y8fOCexBJood8Cvsi6WV7bMaDWmRFJDxIkSUHLL7HuKoEV3TF
-        cyHqRVYmklq4xIRIGsCdfFRDJImeyiBEPXEJIunP6CP2iZ64BJGUiXTEGf82S1qKSG5nvJ64BJFowbVw
-        iQmRNIA7+arGRBLpHZtRT1yCSBI944z/rCvhQYpbkdTCJSZE0gDu5KcaN0m64E7+jDv5PpDotQRDnBdZ
-        EUmkS9kjRN8l0J/5PKcXWhAJUf8hXSUFdBfG4zsRyfjtSXTOJznz9UILIhlPpoivmNF4KapkbVxiwiUm
-        XGLCJSZcYkIkDeBO5jdla+ESEy4xsUFJA7gT/ceXNXCJCZeY2KCkAdyJ/gfLGrjEhEtMbFDSAO6kHi4x
-        4RITG5TUpcu/O5AQ4UCxriQAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACEAAACACAYAAACFpAAkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIiSURBVHhe7ZoxbuMwEEV1A5epAmyVJkBcpPINXPgECzhl
+        DmCw3YMY4DG21wX2ELwJd4bmJ+kVgyRYiWTxDTxAGg6phzFNibYnefkBmLz3/cgSc7Yycuzd5I/x3Mpx
+        rfNXMXEc8O94MT55Z6VRCALSMBtBk6SDkXjZ6TvouOWFg5CMXebcSWijXvwox2tJ6Dg6fhjrA7JEUSIT
+        ZfpU4nZy6yA0nxNlsDWUAJQASWIA1Oi1G3cSzu5kIXm6NbofcZ3Yyed62XFNsoRc1FghSszmQVZMSQrx
+        l0XHNckSIfBEiRjIEn3mRKWxFZQAlABJYgC0Eu/dyBLzPlmZuZ68FUnC2b3sO/bNBZRC4lHuoKfwqH+0
+        P6vJW5ElHC58kqX7dJe0NVlCKxFOHuVeUU/eiiRRa2wFJQAlQJIYAK3EtRt3Es4+y6p5WSRtTZZwb/JU
+        LXSVCIELJWJgCIk+UAJQAiSJAdBK/OlGlnC/4vcRB3nGLJLmM5JkO1DEVyRJzObsZw2KjLG/U4KzZ9mP
+        nDcTUL4gcZA76zXuR3J8TT6XcDi+ypKuszl3XosksZgTMhf0LQiVKOOVQf6XLFFpbAUlACUAJQAlACUA
+        JQAlACUAJQAlACXAWBIDoJVYfnnRCkoASgBKAEoASoAkMQBaifoPpy2gBKAEoASgBKAESBIDoJWo/2Gz
+        BZQAlACUAJQAlABJYgC0Ev2gBKAEoASgBKAESBJ9mfxf/0BY/maO5kgAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="virtualJoystickC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 3</value>
+    <value>298, 5</value>
+  </data>
+  <data name="virtualJoystickC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="virtualJoystickC.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>400, 400</value>
+    <value>533, 492</value>
   </data>
   <data name="virtualJoystickC.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>25, 100</value>
+    <value>33, 123</value>
   </data>
   <data name="virtualJoystickC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 104</value>
+    <value>33, 128</value>
   </data>
   <data name="virtualJoystickC.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -3208,7 +3518,10 @@
     <value>Fill</value>
   </data>
   <data name="tLPRechtsUntenRechtsMitte.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 133</value>
+    <value>4, 164</value>
+  </data>
+  <data name="tLPRechtsUntenRechtsMitte.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tLPRechtsUntenRechtsMitte.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3217,7 +3530,7 @@
     <value>1</value>
   </data>
   <data name="tLPRechtsUntenRechtsMitte.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 110</value>
+    <value>307, 138</value>
   </data>
   <data name="tLPRechtsUntenRechtsMitte.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -3235,7 +3548,7 @@
     <value>1</value>
   </data>
   <data name="tLPRechtsUntenRechtsMitte.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="virtualJoystickA" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickXY" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickZ" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickB" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickC" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,120,Absolute,40,Absolute,40,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="virtualJoystickA" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickXY" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickZ" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickB" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="virtualJoystickC" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,160,Absolute,53,Absolute,53,Absolute,27,Absolute,27" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3244,13 +3557,16 @@
     <value>NoControl</value>
   </data>
   <data name="cBSendJogStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="cBSendJogStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cBSendJogStop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 0, 0</value>
+    <value>4, 0, 0, 0</value>
   </data>
   <data name="cBSendJogStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 18</value>
+    <value>216, 22</value>
   </data>
   <data name="cBSendJogStop.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -3283,13 +3599,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnOverrideDoor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 28</value>
+    <value>1, 34</value>
   </data>
   <data name="btnOverrideDoor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="btnOverrideDoor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 25</value>
+    <value>151, 31</value>
   </data>
   <data name="btnOverrideDoor.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -3326,13 +3642,13 @@ An input pin is available to connect a button or switch, if enabled with a compi
     <value>NoControl</value>
   </data>
   <data name="btnResume.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 55</value>
+    <value>1, 67</value>
   </data>
   <data name="btnResume.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="btnResume.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 35</value>
+    <value>151, 45</value>
   </data>
   <data name="btnResume.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -3370,7 +3686,7 @@ start executing the buffer and Grbl will begin moving the axes.</value>
     <value>1, 1, 1, 1</value>
   </data>
   <data name="btnFeedHold.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 25</value>
+    <value>151, 31</value>
   </data>
   <data name="btnFeedHold.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -3412,7 +3728,7 @@ the machine is running before hitting reset, except of course if there is some e
     <value>3</value>
   </data>
   <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 91</value>
+    <value>153, 113</value>
   </data>
   <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3442,13 +3758,13 @@ the machine is running before hitting reset, except of course if there is some e
     <value>NoControl</value>
   </data>
   <data name="btnKillAlarm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 55</value>
+    <value>1, 68</value>
   </data>
   <data name="btnKillAlarm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="btnKillAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 35</value>
+    <value>152, 44</value>
   </data>
   <data name="btnKillAlarm.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -3491,7 +3807,7 @@ will override the locks and allow G-code functions to work again.
     <value>1, 1, 1, 1</value>
   </data>
   <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 52</value>
+    <value>152, 65</value>
   </data>
   <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -3526,7 +3842,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 0</value>
+    <value>153, 0</value>
   </data>
   <data name="tableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -3535,7 +3851,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>2</value>
   </data>
   <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 91</value>
+    <value>154, 113</value>
   </data>
   <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3553,19 +3869,22 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnKillAlarm" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnReset" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,20" /&gt;&lt;Rows Styles="Percent,60,Percent,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnKillAlarm" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnReset" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,27" /&gt;&lt;Rows Styles="Percent,60,Percent,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 27</value>
+    <value>4, 34</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 91</value>
+    <value>307, 113</value>
   </data>
   <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -3583,13 +3902,13 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,91" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,113" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 246</value>
+    <value>0, 306</value>
   </data>
   <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -3598,7 +3917,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 121</value>
+    <value>315, 151</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3616,13 +3935,13 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cBSendJogStop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,24,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cBSendJogStop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,30,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechtsUntenRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="tLPRechtsUntenRechts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 0</value>
+    <value>511, 0</value>
   </data>
   <data name="tLPRechtsUntenRechts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -3631,7 +3950,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>3</value>
   </data>
   <data name="tLPRechtsUntenRechts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 367</value>
+    <value>315, 457</value>
   </data>
   <data name="tLPRechtsUntenRechts.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -3649,7 +3968,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>0</value>
   </data>
   <data name="tLPRechtsUntenRechts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gB_Jogging" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tLPRechtsUntenRechtsMitte" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,130,AutoSize,0,Absolute,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gB_Jogging" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tLPRechtsUntenRechtsMitte" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,160,AutoSize,0,Absolute,123" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPMitteUnten.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3667,22 +3986,22 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="unDo2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="unDo2ToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo last action</value>
   </data>
   <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 6</value>
+    <value>319, 6</value>
   </data>
   <data name="cmsPicBoxMoveToMarkedPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxMoveToMarkedPosition.Text" xml:space="preserve">
     <value>Move to marked position G0</value>
   </data>
   <data name="cmsPicBoxZeroXYAtMarkedPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxZeroXYAtMarkedPosition.Text" xml:space="preserve">
     <value>Zero XY at marked position G10 L20</value>
@@ -3691,31 +4010,31 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="cmsPicBoxMoveGraphicsOrigin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxMoveGraphicsOrigin.Text" xml:space="preserve">
     <value>Offset graphics by Marker Position</value>
   </data>
   <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 6</value>
+    <value>319, 6</value>
   </data>
   <data name="cmsPicBoxResetZooming.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxResetZooming.Text" xml:space="preserve">
     <value>Reset Zooming</value>
   </data>
   <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 6</value>
+    <value>319, 6</value>
   </data>
   <data name="cmsPicBoxPasteFromClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxPasteFromClipboard.Text" xml:space="preserve">
     <value>Paste from Clipboard</value>
   </data>
   <data name="cmsPicBoxReloadFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxReloadFile.Text" xml:space="preserve">
     <value>Reload File</value>
@@ -3724,7 +4043,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="deletenotMarkToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="deletenotMarkToolStripMenuItem.Text" xml:space="preserve">
     <value>Mark code (no delete)</value>
@@ -3736,10 +4055,10 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 6</value>
+    <value>319, 6</value>
   </data>
   <data name="cmsPicBoxMarkFirstPos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxMarkFirstPos.Text" xml:space="preserve">
     <value>Mark first point of selected path</value>
@@ -3751,7 +4070,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="cmsPicBoxDeletePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxDeletePath.Text" xml:space="preserve">
     <value>Delete selected path</value>
@@ -3763,7 +4082,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="cmsPicBoxCropSelectedPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxCropSelectedPath.Text" xml:space="preserve">
     <value>Crop selected path (cut out)</value>
@@ -3772,7 +4091,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="cmsPicBoxMoveSelectedPathInCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxMoveSelectedPathInCode.Text" xml:space="preserve">
     <value>Apply offset to GCode</value>
@@ -3781,34 +4100,34 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>False</value>
   </data>
   <data name="cmsPicBoxReverseSelectedPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxReverseSelectedPath.Text" xml:space="preserve">
     <value>Reverse / Rotate selected path</value>
   </data>
   <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 6</value>
+    <value>319, 6</value>
   </data>
   <data name="cmsPicBoxSetGCodeAsBackground.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxSetGCodeAsBackground.Text" xml:space="preserve">
     <value>Set G-Code as Background</value>
   </data>
   <data name="cmsPicBoxClearBackground.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="cmsPicBoxClearBackground.Text" xml:space="preserve">
     <value>Clear Background</value>
   </data>
   <data name="copyContentTroClipboardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 22</value>
+    <value>322, 26</value>
   </data>
   <data name="copyContentTroClipboardToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy content to Clipboard</value>
   </data>
   <data name="cmsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 386</value>
+    <value>323, 450</value>
   </data>
   <data name="&gt;&gt;cmsPictureBox.Name" xml:space="preserve">
     <value>cmsPictureBox</value>
@@ -3826,10 +4145,13 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value />
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 331</value>
+    <value>495, 411</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -3850,10 +4172,13 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>Fill</value>
   </data>
   <data name="tBURL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 340</value>
+    <value>4, 423</value>
+  </data>
+  <data name="tBURL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tBURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 20</value>
+    <value>495, 22</value>
   </data>
   <data name="tBURL.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3882,13 +4207,16 @@ for SVG files</value>
     <value>Fill</value>
   </data>
   <data name="tLPMitteUnten.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="tLPMitteUnten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tLPMitteUnten.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tLPMitteUnten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 361</value>
+    <value>503, 449</value>
   </data>
   <data name="tLPMitteUnten.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -3906,13 +4234,13 @@ for SVG files</value>
     <value>1</value>
   </data>
   <data name="tLPMitteUnten.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tBURL" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tBURL" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechtsUnten.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="tLPRechtsUnten.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 182</value>
+    <value>0, 224</value>
   </data>
   <data name="tLPRechtsUnten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -3921,7 +4249,7 @@ for SVG files</value>
     <value>1</value>
   </data>
   <data name="tLPRechtsUnten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 367</value>
+    <value>826, 457</value>
   </data>
   <data name="tLPRechtsUnten.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -3960,13 +4288,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1</value>
+    <value>4, 1</value>
   </data>
   <data name="btnCustom1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3996,13 +4324,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 38</value>
+    <value>4, 47</value>
   </data>
   <data name="btnCustom2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4032,13 +4360,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 75</value>
+    <value>4, 93</value>
   </data>
   <data name="btnCustom3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4065,13 +4393,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 112</value>
+    <value>4, 139</value>
   </data>
   <data name="btnCustom4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4098,13 +4426,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 1</value>
+    <value>35, 1</value>
   </data>
   <data name="btnCustom5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4131,13 +4459,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 38</value>
+    <value>35, 47</value>
   </data>
   <data name="btnCustom6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4164,13 +4492,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 75</value>
+    <value>35, 93</value>
   </data>
   <data name="btnCustom7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -4197,13 +4525,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 112</value>
+    <value>35, 139</value>
   </data>
   <data name="btnCustom8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -4230,13 +4558,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 1</value>
+    <value>66, 1</value>
   </data>
   <data name="btnCustom9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -4263,13 +4591,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 38</value>
+    <value>66, 47</value>
   </data>
   <data name="btnCustom10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom10.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -4296,13 +4624,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 75</value>
+    <value>66, 93</value>
   </data>
   <data name="btnCustom11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom11.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -4329,13 +4657,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 112</value>
+    <value>66, 139</value>
   </data>
   <data name="btnCustom12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
+    <value>23, 44</value>
   </data>
   <data name="btnCustom12.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4362,13 +4690,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 1</value>
+    <value>97, 1</value>
   </data>
   <data name="btnCustom13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>25, 44</value>
   </data>
   <data name="btnCustom13.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -4395,13 +4723,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 38</value>
+    <value>97, 47</value>
   </data>
   <data name="btnCustom14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>25, 44</value>
   </data>
   <data name="btnCustom14.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -4428,13 +4756,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 75</value>
+    <value>97, 93</value>
   </data>
   <data name="btnCustom15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
+    <value>25, 44</value>
   </data>
   <data name="btnCustom15.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -4461,13 +4789,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnCustom16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 112</value>
+    <value>97, 139</value>
   </data>
   <data name="btnCustom16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="btnCustom16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
+    <value>25, 44</value>
   </data>
   <data name="btnCustom16.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -4491,16 +4819,16 @@ for SVG files</value>
     <value>Fill</value>
   </data>
   <data name="tLPCustomButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1</value>
+    <value>4, 1</value>
   </data>
   <data name="tLPCustomButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
+    <value>4, 1, 4, 1</value>
   </data>
   <data name="tLPCustomButton2.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tLPCustomButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 149</value>
+    <value>126, 184</value>
   </data>
   <data name="tLPCustomButton2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4527,10 +4855,13 @@ for SVG files</value>
     <value>Fill</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 3</value>
+    <value>138, 4</value>
+  </data>
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 145</value>
+    <value>127, 178</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4551,13 +4882,16 @@ for SVG files</value>
     <value>Fill</value>
   </data>
   <data name="tLPCustomButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 16</value>
+    <value>4, 19</value>
+  </data>
+  <data name="tLPCustomButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tLPCustomButton1.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tLPCustomButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 151</value>
+    <value>269, 186</value>
   </data>
   <data name="tLPCustomButton1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4581,10 +4915,16 @@ for SVG files</value>
     <value>Fill</value>
   </data>
   <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>403, 3</value>
+    <value>537, 4</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 170</value>
+    <value>277, 209</value>
   </data>
   <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -4611,13 +4951,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label_c.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 78</value>
+    <value>307, 96</value>
+  </data>
+  <data name="label_c.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_c.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_c.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label_c.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -4644,10 +4987,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnZeroC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 78</value>
+    <value>447, 96</value>
+  </data>
+  <data name="btnZeroC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroC.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -4677,13 +5023,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label_mc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 96</value>
+    <value>351, 118</value>
+  </data>
+  <data name="label_mc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_mc.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_mc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>96, 17</value>
   </data>
   <data name="label_mc.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -4713,13 +5062,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label_wc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 78</value>
+    <value>335, 96</value>
+  </data>
+  <data name="label_wc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wc.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wc.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -4749,13 +5101,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 46</value>
+    <value>307, 57</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -4782,10 +5137,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="btnZeroB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 46</value>
+    <value>447, 57</value>
+  </data>
+  <data name="btnZeroB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroB.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -4815,13 +5173,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label_mb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 64</value>
+    <value>351, 79</value>
+  </data>
+  <data name="label_mb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_mb.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_mb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>96, 17</value>
   </data>
   <data name="label_mb.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -4851,13 +5212,16 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="label_wb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 46</value>
+    <value>335, 57</value>
+  </data>
+  <data name="label_wb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wb.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wb.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -4887,10 +5251,13 @@ for SVG files</value>
     <value>NoControl</value>
   </data>
   <data name="lblCurrentG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 0</value>
+    <value>251, 0</value>
+  </data>
+  <data name="lblCurrentG.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblCurrentG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 13</value>
+    <value>35, 17</value>
   </data>
   <data name="lblCurrentG.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -4922,13 +5289,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_status0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 118</value>
+    <value>1, 145</value>
+  </data>
+  <data name="label_status0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_status0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_status0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 20</value>
+    <value>83, 25</value>
   </data>
   <data name="label_status0.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4958,13 +5328,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_a.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 110</value>
+    <value>1, 135</value>
+  </data>
+  <data name="label_a.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_a.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_a.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label_a.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -4991,10 +5364,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 110</value>
+    <value>141, 135</value>
+  </data>
+  <data name="btnZeroA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroA.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -5024,13 +5400,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_ma.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 128</value>
+    <value>45, 158</value>
+  </data>
+  <data name="label_ma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_ma.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_ma.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>96, 17</value>
   </data>
   <data name="label_ma.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -5060,13 +5439,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_wa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 110</value>
+    <value>29, 135</value>
+  </data>
+  <data name="label_wa.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wa.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wa.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -5093,10 +5475,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 111</value>
+    <value>141, 137</value>
+  </data>
+  <data name="btnHome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 57</value>
+    <value>163, 70</value>
   </data>
   <data name="btnHome.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5123,10 +5508,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroXYZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 62</value>
+    <value>213, 76</value>
+  </data>
+  <data name="btnZeroXYZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroXYZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+    <value>91, 28</value>
   </data>
   <data name="btnZeroXYZ.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -5153,10 +5541,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroXY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 28</value>
+    <value>213, 34</value>
+  </data>
+  <data name="btnZeroXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroXY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+    <value>91, 28</value>
   </data>
   <data name="btnZeroXY.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -5186,13 +5577,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 78</value>
+    <value>1, 96</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -5219,10 +5613,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 78</value>
+    <value>141, 96</value>
+  </data>
+  <data name="btnZeroZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroZ.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -5252,13 +5649,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 46</value>
+    <value>1, 57</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -5285,10 +5685,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 46</value>
+    <value>141, 57</value>
+  </data>
+  <data name="btnZeroY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroY.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5318,13 +5721,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 14</value>
+    <value>1, 17</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 20</value>
+    <value>31, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -5351,10 +5757,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="btnZeroX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 13</value>
+    <value>141, 16</value>
+  </data>
+  <data name="btnZeroX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnZeroX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>73, 28</value>
   </data>
   <data name="btnZeroX.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5384,10 +5793,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_status.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 138</value>
+    <value>4, 170</value>
+  </data>
+  <data name="label_status.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 20</value>
+    <value>140, 25</value>
   </data>
   <data name="label_status.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -5417,13 +5829,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_mx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 32</value>
+    <value>45, 39</value>
+  </data>
+  <data name="label_mx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_mx.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_mx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 12</value>
+    <value>96, 15</value>
   </data>
   <data name="label_mx.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5453,13 +5868,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_my.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 64</value>
+    <value>45, 79</value>
+  </data>
+  <data name="label_my.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_my.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_my.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>96, 17</value>
   </data>
   <data name="label_my.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5489,13 +5907,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_mz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 96</value>
+    <value>45, 118</value>
+  </data>
+  <data name="label_mz.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_mz.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_mz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 14</value>
+    <value>96, 17</value>
   </data>
   <data name="label_mz.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -5525,13 +5946,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_wz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 78</value>
+    <value>29, 96</value>
+  </data>
+  <data name="label_wz.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wz.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wz.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -5561,13 +5985,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_wx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 14</value>
+    <value>29, 17</value>
+  </data>
+  <data name="label_wx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wx.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wx.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -5597,13 +6024,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>NoControl</value>
   </data>
   <data name="label_wy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 46</value>
+    <value>29, 57</value>
+  </data>
+  <data name="label_wy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label_wy.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="label_wy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>115, 25</value>
   </data>
   <data name="label_wy.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -5627,10 +6057,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>29</value>
   </data>
   <data name="groupBoxCoordinates.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="groupBoxCoordinates.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxCoordinates.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBoxCoordinates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>394, 170</value>
+    <value>525, 209</value>
   </data>
   <data name="groupBoxCoordinates.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -5654,13 +6090,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Fill</value>
   </data>
   <data name="tLPRechtsOben.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <data name="tLPRechtsOben.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="tLPRechtsOben.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 176</value>
+    <value>818, 216</value>
   </data>
   <data name="tLPRechtsOben.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -5678,7 +6117,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,400,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,533,Percent,100" /&gt;&lt;Rows Styles="Absolute,217" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -5686,11 +6125,14 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   <data name="tLPRechts.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="tLPRechts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="tLPRechts.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tLPRechts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 549</value>
+    <value>826, 681</value>
   </data>
   <data name="tLPRechts.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -5708,7 +6150,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>0</value>
   </data>
   <data name="tLPRechts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tLPRechtsUnten" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tLPRechtsOben" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,182,Absolute,248" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tLPRechtsUnten" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tLPRechtsOben" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,224,Absolute,305" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
     <value>splitContainer1.Panel2</value>
@@ -5726,10 +6168,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>400</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 551</value>
+    <value>1173, 683</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
     <value>340</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -5750,7 +6195,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>17, 17</value>
   </metadata>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Open File</value>
@@ -5759,16 +6204,16 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Open G-Code or SVG file</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Open Recent File</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Save G-Code</value>
@@ -5777,19 +6222,19 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Save displayed G-Code to a file</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="setupToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="setupToolStripMenuItem1.Text" xml:space="preserve">
     <value>Setup</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>243, 6</value>
   </data>
   <data name="saveMachineParametersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="saveMachineParametersToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Export Machine Settings</value>
@@ -5798,7 +6243,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Export GUI-Settings (Button definitions, Joystick parameters) to an INI-file</value>
   </data>
   <data name="loadMachineParametersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="loadMachineParametersToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Import Machine Settings</value>
@@ -5807,7 +6252,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Import GUI-Settings (Button definitions, Joystick parameters) from an INI-file</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English</value>
@@ -5816,7 +6261,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>English</value>
   </data>
   <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch</value>
@@ -5825,7 +6270,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>German</value>
   </data>
   <data name="pусскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="pусскийToolStripMenuItem.Text" xml:space="preserve">
     <value>Pусский</value>
@@ -5834,7 +6279,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Russian</value>
   </data>
   <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="toolStripMenuItem4.Text" xml:space="preserve">
     <value>Español</value>
@@ -5843,7 +6288,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Spanish</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
     <value>Português</value>
@@ -5852,7 +6297,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Portuguese</value>
   </data>
   <data name="franzToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="franzToolStripMenuItem.Text" xml:space="preserve">
     <value>Francés</value>
@@ -5861,7 +6306,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>French</value>
   </data>
   <data name="chinesischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="chinesischToolStripMenuItem.Text" xml:space="preserve">
     <value>中国</value>
@@ -5870,7 +6315,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Chinese</value>
   </data>
   <data name="arabischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="arabischToolStripMenuItem.Text" xml:space="preserve">
     <value>العربية</value>
@@ -5879,7 +6324,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Arabic</value>
   </data>
   <data name="japanischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 22</value>
+    <value>149, 26</value>
   </data>
   <data name="japanischToolStripMenuItem.Text" xml:space="preserve">
     <value>日本の</value>
@@ -5888,7 +6333,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>Japanese</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>Language</value>
@@ -5904,19 +6349,19 @@ Langue
 言語</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>246, 26</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>44, 24</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
   <data name="textWizzardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>228, 26</value>
   </data>
   <data name="textWizzardToolStripMenuItem.Text" xml:space="preserve">
     <value>Create &amp;Text</value>
@@ -5925,19 +6370,19 @@ Langue
     <value>Simple copywriting with Hershey fonts</value>
   </data>
   <data name="createBarcodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>228, 26</value>
   </data>
   <data name="createBarcodeToolStripMenuItem.Text" xml:space="preserve">
     <value>Create Barcode</value>
   </data>
   <data name="imageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>228, 26</value>
   </data>
   <data name="imageToolStripMenuItem.Text" xml:space="preserve">
     <value>Convert &amp;Image</value>
   </data>
   <data name="createSimpleShapesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>228, 26</value>
   </data>
   <data name="createSimpleShapesToolStripMenuItem.Text" xml:space="preserve">
     <value>Create Simple Sh&amp;apes</value>
@@ -5946,13 +6391,13 @@ Langue
     <value>Circle or rectangle, optionally with rounded corners, optionally as a bag</value>
   </data>
   <data name="startExtensionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>228, 26</value>
   </data>
   <data name="startExtensionToolStripMenuItem.Text" xml:space="preserve">
     <value>Extensions</value>
   </data>
   <data name="createGCodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
+    <value>132, 24</value>
   </data>
   <data name="createGCodeToolStripMenuItem.Text" xml:space="preserve">
     <value>G-Code &amp;Creation</value>
@@ -5961,19 +6406,19 @@ Langue
     <value>False</value>
   </data>
   <data name="unDoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="unDoToolStripMenuItem.Text" xml:space="preserve">
     <value>Undo last action</value>
   </data>
   <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="mirrorXToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+H</value>
   </data>
   <data name="mirrorXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="mirrorXToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror X (&amp;horizontal)</value>
@@ -5982,13 +6427,13 @@ Langue
     <value>Alt+V</value>
   </data>
   <data name="mirrorYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="mirrorYToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror Y (&amp;vertical)</value>
   </data>
   <data name="mirrorRotaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="mirrorRotaryToolStripMenuItem.Text" xml:space="preserve">
     <value>Mirror Rotary axis</value>
@@ -5997,85 +6442,85 @@ Langue
     <value>False</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="rotate90ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="rotate90ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate +90° (ccw)</value>
   </data>
   <data name="rotate90ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="rotate90ToolStripMenuItem1.Text" xml:space="preserve">
     <value>Rotate -90° (cw)</value>
   </data>
   <data name="rotate180ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="rotate180ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate 180°</value>
   </data>
   <data name="toolStrip_tb_rotate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_rotate.Text" xml:space="preserve">
     <value>30</value>
   </data>
   <data name="rotateFreeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="rotateFreeToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate by ...°</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="toolStrip_tb_XY_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_XY_scale.Text" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="sToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="sToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY by ...%</value>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Text" xml:space="preserve">
     <value>50</value>
   </data>
   <data name="skalierenXYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skalierenXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set X=... units</value>
   </data>
   <data name="toolStrip_tb_XY_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_XY_Y_scale.Text" xml:space="preserve">
     <value>50</value>
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set Y=... units</value>
   </data>
   <data name="toolStrip_tb_X_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_X_scale.Text" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="skaliereXUmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereXUmToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X by ...%</value>
@@ -6084,13 +6529,13 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStrip_tb_X_X_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_X_X_scale.Text" xml:space="preserve">
     <value>50</value>
   </data>
   <data name="skaliereAufXUnitsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereAufXUnitsToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X set X=... units</value>
@@ -6099,13 +6544,13 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStrip_tb_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_Y_scale.Text" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="skaliereYUmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereYUmToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y by ...%</value>
@@ -6114,13 +6559,13 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Text" xml:space="preserve">
     <value>50</value>
   </data>
   <data name="skaliereAufYUnitsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereAufYUnitsToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y set Y=... units</value>
@@ -6129,16 +6574,16 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="toolStrip_tb_rotary_diameter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_rotary_diameter.Text" xml:space="preserve">
     <value>20</value>
   </data>
   <data name="rotaryDimaeterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="rotaryDimaeterToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotary diameter</value>
@@ -6147,13 +6592,13 @@ Langue
     <value>Set Diameter of part for rotary axis</value>
   </data>
   <data name="toolStrip_tb_X_A_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_X_A_scale.Text" xml:space="preserve">
     <value>90</value>
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale X to ...° (Rotary axis)</value>
@@ -6162,13 +6607,13 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Text" xml:space="preserve">
     <value>90</value>
   </data>
   <data name="skaliereYAufDrehachseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="skaliereYAufDrehachseToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale Y to ...° (Rotary axis)</value>
@@ -6177,28 +6622,28 @@ Langue
     <value>G2 / G3 are not supported</value>
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="toolStrip_tBRadiusCompValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tBRadiusCompValue.Text" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="toolStrip_RadiusComp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="toolStrip_RadiusComp.Text" xml:space="preserve">
     <value>Radius compensation</value>
   </data>
   <data name="ersetzteG23DurchLinienToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="ersetzteG23DurchLinienToolStripMenuItem.Text" xml:space="preserve">
     <value>Replace G2/3 by lines</value>
   </data>
   <data name="convertZToSspindleSpeedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="convertZToSspindleSpeedToolStripMenuItem.Text" xml:space="preserve">
     <value>Convert Z to S (spindle speed)</value>
@@ -6208,37 +6653,37 @@ Langue
 [Setup - Graphics import - G-Code modification]</value>
   </data>
   <data name="removeAnyZMoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>284, 26</value>
   </data>
   <data name="removeAnyZMoveToolStripMenuItem.Text" xml:space="preserve">
     <value>Remove any Z move</value>
   </data>
   <data name="gCodeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 20</value>
+    <value>142, 24</value>
   </data>
   <data name="gCodeToolStripMenuItem.Text" xml:space="preserve">
     <value>G-Code T&amp;ransform</value>
   </data>
   <data name="probingToolLengthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>259, 26</value>
   </data>
   <data name="probingToolLengthToolStripMenuItem.Text" xml:space="preserve">
     <value>Probing / Tool length</value>
   </data>
   <data name="surfaceScanHeightMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>259, 26</value>
   </data>
   <data name="surfaceScanHeightMapToolStripMenuItem.Text" xml:space="preserve">
     <value>Surface scan / Height map</value>
   </data>
   <data name="workpieceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+    <value>91, 24</value>
   </data>
   <data name="workpieceToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Workpiece</value>
   </data>
   <data name="edgeFinderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="edgeFinderToolStripMenuItem.Text" xml:space="preserve">
     <value>Probing</value>
@@ -6247,7 +6692,7 @@ Langue
     <value>False</value>
   </data>
   <data name="heightMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="heightMapToolStripMenuItem.Text" xml:space="preserve">
     <value>Surface scan</value>
@@ -6256,19 +6701,19 @@ Langue
     <value>False</value>
   </data>
   <data name="laserToolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="laserToolsToolStripMenuItem.Text" xml:space="preserve">
     <value>Laser tools</value>
   </data>
   <data name="coordinateSystemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="coordinateSystemsToolStripMenuItem.Text" xml:space="preserve">
     <value>Coordinate Systems</value>
   </data>
   <data name="setupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="setupToolStripMenuItem.Text" xml:space="preserve">
     <value>DIY control</value>
@@ -6277,7 +6722,7 @@ Langue
     <value>Setup GUI and import parameters</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Show Camera</value>
@@ -6286,7 +6731,7 @@ Langue
     <value>Show camera picture</value>
   </data>
   <data name="toolStrip_tb_StreamLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>100, 27</value>
   </data>
   <data name="toolStrip_tb_StreamLine.Text" xml:space="preserve">
     <value>0</value>
@@ -6295,7 +6740,7 @@ Langue
     <value>Marked line</value>
   </data>
   <data name="startStreamingAtLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="startStreamingAtLineToolStripMenuItem.Text" xml:space="preserve">
     <value>Start Streaming at line</value>
@@ -6307,7 +6752,7 @@ Langue
     <value>False</value>
   </data>
   <data name="controlStreamingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="controlStreamingToolStripMenuItem.Text" xml:space="preserve">
     <value>Control Streaming</value>
@@ -6316,7 +6761,7 @@ Langue
     <value>Override Feed rate and Spindle speed</value>
   </data>
   <data name="control2ndGRBLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
+    <value>232, 26</value>
   </data>
   <data name="control2ndGRBLToolStripMenuItem.Text" xml:space="preserve">
     <value>Control 2nd GRBL</value>
@@ -6325,31 +6770,31 @@ Langue
     <value>Opens a simple window to control a second GRBL controller</value>
   </data>
   <data name="machineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 20</value>
+    <value>128, 24</value>
   </data>
   <data name="machineToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Machine control</value>
   </data>
   <data name="toolStripViewRuler.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewRuler.Text" xml:space="preserve">
     <value>Ruler</value>
   </data>
   <data name="toolStripViewInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewInfo.Text" xml:space="preserve">
     <value>Info</value>
   </data>
   <data name="toolStripViewPenUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewPenUp.Text" xml:space="preserve">
     <value>Pen-Up path</value>
   </data>
   <data name="toolStripViewMachineFix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewMachineFix.Text" xml:space="preserve">
     <value>Fixed Machine area</value>
@@ -6358,7 +6803,7 @@ Langue
     <value>Limit and offset can be set via 'Setup' - 'Control' -  'Maschine area'</value>
   </data>
   <data name="toolStripViewMachine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewMachine.Text" xml:space="preserve">
     <value>Machine limits</value>
@@ -6367,13 +6812,13 @@ Langue
     <value>Limit and offset can be set via 'Setup' - 'Control' -  'Maschine area'</value>
   </data>
   <data name="toolStripViewDimension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewDimension.Text" xml:space="preserve">
     <value>G-Code Dimension</value>
   </data>
   <data name="toolStripViewTool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewTool.Text" xml:space="preserve">
     <value>Tool table</value>
@@ -6382,25 +6827,25 @@ Langue
     <value>Limit and offset can be set via 'Setup' - 'Tool change setup' -  'Tool table'</value>
   </data>
   <data name="toolStripViewBackground.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 22</value>
+    <value>212, 26</value>
   </data>
   <data name="toolStripViewBackground.Text" xml:space="preserve">
     <value>Background</value>
   </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>53, 24</value>
   </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>View</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
+    <value>62, 24</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;About</value>
   </data>
   <data name="logToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>46, 24</value>
   </data>
   <data name="logToolStripMenuItem.Text" xml:space="preserve">
     <value>Log</value>
@@ -6409,10 +6854,13 @@ Langue
     <value>False</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>3, 2</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 24</value>
+    <value>1173, 28</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6448,22 +6896,25 @@ Langue
     <value>117, 56</value>
   </metadata>
   <data name="toolStripStatusLabel0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>494, 17</value>
+    <value>631, 20</value>
   </data>
   <data name="toolStripStatusLabel0.Text" xml:space="preserve">
     <value>[ Load file via drag and drop or file open dialog. Or select 'Reload File' to open last used file. ]</value>
   </data>
   <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>0, 20</value>
   </data>
   <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>0, 20</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 577</value>
+    <value>3, 713</value>
+  </data>
+  <data name="statusStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 19, 0</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 22</value>
+    <value>1173, 25</value>
   </data>
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -6493,16 +6944,19 @@ Langue
     <value>60</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>884, 601</value>
+    <value>1179, 740</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 640</value>
+    <value>1061, 777</value>
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
