@@ -453,10 +453,8 @@ namespace GRBL_Plotter
                 SplashScreenTimer.Stop();
                 SplashScreenTimer.Interval = 3000;
                 SplashScreenTimer.Start();
-<<<<<<< HEAD
+
                 //                updateControls();
-=======
->>>>>>> upstream/master
             }
             else
             {
@@ -518,7 +516,8 @@ namespace GRBL_Plotter
                 txt = "$J=" + txt;
             txt = gui.insertVariable(txt);			// will be filled in MainFormLoadFile.cs 1617, defined in MainFormObjects.cs
             if (!_serial_form.requestSend(txt))     // check if COM is still open
-            {   timerUpdateControlSource = "sendCommand";
+            {
+                timerUpdateControlSource = "sendCommand";
                 updateControls();
             }
 
@@ -1064,12 +1063,8 @@ namespace GRBL_Plotter
         private void btnResume_Click(object sender, EventArgs e)
         { grblResume(); }
         private void grblResume()
-<<<<<<< HEAD
         {
             sendRealtimeCommand('~');
-=======
-        {   sendRealtimeCommand('~');
->>>>>>> upstream/master
             Logger.Trace("Resume");
             btnResume.BackColor = SystemColors.Control;
             signalResume = 0;
@@ -1079,14 +1074,10 @@ namespace GRBL_Plotter
             updateControls();
         }
         private void btnKillAlarm_Click(object sender, EventArgs e)
-        {   grblKillAlarm(); }
+        { grblKillAlarm(); }
         private void grblKillAlarm()
-<<<<<<< HEAD
         {
             sendCommand("$X");
-=======
-        {   sendCommand("$X");
->>>>>>> upstream/master
             Logger.Trace("KillAlarm");
             signalLock = 0;
             btnKillAlarm.BackColor = SystemColors.Control;
@@ -1443,6 +1434,22 @@ namespace GRBL_Plotter
             Clipboard.SetImage(img);
 
             g.Dispose();
+        }
+
+        private void backwardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openBackward = new OpenFileDialog();
+            if (openBackward.ShowDialog() == DialogResult.OK)
+            {
+                GCodeCreation.BackwardGCode back = new GCodeCreation.BackwardGCode();
+                back.createBackwardList(File.ReadAllLines(openBackward.FileName));
+
+            }
+        }
+
+        private void relayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sendRealtimeCommand(0xa2);
         }
     }
 }

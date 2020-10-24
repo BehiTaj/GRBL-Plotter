@@ -6853,6 +6853,18 @@ Langue
   <data name="logToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="backwardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="backwardToolStripMenuItem.Text" xml:space="preserve">
+    <value>backward</value>
+  </data>
+  <data name="relayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 24</value>
+  </data>
+  <data name="relayToolStripMenuItem.Text" xml:space="preserve">
+    <value>relay</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 2</value>
   </data>
@@ -7898,6 +7910,18 @@ Langue
     <value>logToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;logToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backwardToolStripMenuItem.Name" xml:space="preserve">
+    <value>backwardToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;backwardToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;relayToolStripMenuItem.Name" xml:space="preserve">
+    <value>relayToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;relayToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MainTimer.Name" xml:space="preserve">

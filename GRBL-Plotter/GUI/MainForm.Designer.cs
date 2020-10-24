@@ -396,6 +396,8 @@ namespace GRBL_Plotter
             this.toolStripViewBackground = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backwardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MainTimer = new System.Windows.Forms.Timer(this.components);
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
@@ -2227,7 +2229,9 @@ namespace GRBL_Plotter
             this.machineToolStripMenuItem,
             this.viewToolStripMenuItem,
             this.aboutToolStripMenuItem,
-            this.logToolStripMenuItem});
+            this.logToolStripMenuItem,
+            this.backwardToolStripMenuItem,
+            this.relayToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -2885,6 +2889,18 @@ namespace GRBL_Plotter
             this.logToolStripMenuItem.Name = "logToolStripMenuItem";
             resources.ApplyResources(this.logToolStripMenuItem, "logToolStripMenuItem");
             // 
+            // backwardToolStripMenuItem
+            // 
+            this.backwardToolStripMenuItem.Name = "backwardToolStripMenuItem";
+            resources.ApplyResources(this.backwardToolStripMenuItem, "backwardToolStripMenuItem");
+            this.backwardToolStripMenuItem.Click += new System.EventHandler(this.backwardToolStripMenuItem_Click);
+            // 
+            // relayToolStripMenuItem
+            // 
+            this.relayToolStripMenuItem.Name = "relayToolStripMenuItem";
+            resources.ApplyResources(this.relayToolStripMenuItem, "relayToolStripMenuItem");
+            this.relayToolStripMenuItem.Click += new System.EventHandler(this.relayToolStripMenuItem_Click);
+            // 
             // MainTimer
             // 
             this.MainTimer.Enabled = true;
@@ -3344,6 +3360,8 @@ namespace GRBL_Plotter
         private System.Windows.Forms.ToolStripMenuItem sortByPenWidthToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sortByTypeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backwardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem relayToolStripMenuItem;
     }
 }
 

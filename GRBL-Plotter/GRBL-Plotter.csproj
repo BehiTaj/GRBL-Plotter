@@ -148,6 +148,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GCodeCreation\backwardGcode.cs" />
     <Compile Include="GCodeCreation\CreateFromForm\BarcodeLib.cs" />
     <Compile Include="GCodeCreation\CreateFromForm\BarcodeLibSymbologies.cs" />
     <Compile Include="GCodeCreation\CreateFromForm\GCodeForBarcode.cs">

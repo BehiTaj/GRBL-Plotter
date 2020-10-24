@@ -28,7 +28,8 @@ namespace GRBL_Plotter
     /// Hold absolute work coordinate for given linenumber of GCode program
     /// </summary>
     class coordByLine
-    {   public int lineNumber;          // line number in fCTBCode
+    {
+        public int lineNumber;          // line number in fCTBCode
         public int figureNumber;
         public xyPoint actualPos;       // accumulates position
         public double alpha;            // angle between old and this position
@@ -42,21 +43,22 @@ namespace GRBL_Plotter
         { lineNumber = line; figureNumber = figure; actualPos = p; alpha = a; distance = dist; isArc = false; }
 
         public void calcDistance(xyPoint tmp)
-        {   xyPoint delta = new xyPoint(tmp - actualPos);
+        {
+            xyPoint delta = new xyPoint(tmp - actualPos);
             distance = Math.Sqrt(delta.X * delta.X + delta.Y * delta.Y);
         }
     }
 
     public struct xyzabcuvwPoint
     {
-        public double X, Y, Z, A,B,C,U,V,W;
+        public double X, Y, Z, A, B, C, U, V, W;
         public xyzabcuvwPoint(xyzPoint tmp)
-        { X = tmp.X; Y = tmp.Y; Z = tmp.Z;  A = tmp.A; B = 0;C = 0;U = 0;V = 0;W = 0; }
+        { X = tmp.X; Y = tmp.Y; Z = tmp.Z; A = tmp.A; B = 0; C = 0; U = 0; V = 0; W = 0; }
 
         public static explicit operator xyPoint(xyzabcuvwPoint tmp)
-        { return new xyPoint(tmp.X,tmp.Y); }
+        { return new xyPoint(tmp.X, tmp.Y); }
         public static explicit operator xyArcPoint(xyzabcuvwPoint tmp)
-        { return new xyArcPoint(tmp.X, tmp.Y,0 ,0 ,0); }
+        { return new xyArcPoint(tmp.X, tmp.Y, 0, 0, 0); }
     }
 
     /// <summary>
@@ -65,7 +67,9 @@ namespace GRBL_Plotter
     class gcodeByLine
     {   // ModalGroups
         public int lineNumber;          // line number in fCTBCode
+
         public int figureNumber;
+        public int gcodeNUmber;
         public string codeLine;         // copy of original gcode line
         public byte motionMode;         // G0,1,2,3
         public bool isdistanceModeG90;  // G90,91
@@ -88,7 +92,7 @@ namespace GRBL_Plotter
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 
         public gcodeByLine()
-        {   resetAll(); }
+        { resetAll(); }
         public gcodeByLine(gcodeByLine tmp)
         {
             resetAll();
@@ -98,7 +102,7 @@ namespace GRBL_Plotter
             spindleSpeed = tmp.spindleSpeed; feedRate = tmp.feedRate;
             x = tmp.x; y = tmp.y; z = tmp.z; i = tmp.i; j = tmp.j; a = tmp.a; b = tmp.b; c = tmp.c; u = tmp.u; v = tmp.v; w = tmp.w;
             actualPos = tmp.actualPos; distance = tmp.distance; alpha = tmp.alpha;
-            isSetCoordinateSystem = tmp.isSetCoordinateSystem;  otherCode = tmp.otherCode;
+            isSetCoordinateSystem = tmp.isSetCoordinateSystem; otherCode = tmp.otherCode;
         }
 
         public string listData()
@@ -118,33 +122,38 @@ namespace GRBL_Plotter
             distance = -1; otherCode = ""; info = ""; alpha = 0;
 
             x = y = z = a = b = c = u = v = w = i = j = null;
-                 
+
             resetCoordinates();
         }
         public void resetAll(xyzPoint tmp)
-        {   resetAll();
-            actualPos = new xyzabcuvwPoint( tmp);
+        {
+            resetAll();
+            actualPos = new xyzabcuvwPoint(tmp);
         }
         /// <summary>
         /// Reset coordinates
         /// </summary>
         public void resetCoordinates()
-        {   x = null; y = null; z = null; a = null; b = null; c = null; u = null; v = null; w = null; i = null; j = null;
+        {
+            x = null; y = null; z = null; a = null; b = null; c = null; u = null; v = null; w = null; i = null; j = null;
         }
         public void presetParsing(int lineNr, string line)
-        {   resetCoordinates();
+        {
+            resetCoordinates();
             ismachineCoordG53 = false; isSubroutine = false;
             otherCode = "";
             lineNumber = lineNr;
             codeLine = line;
         }
 
+
+
         /// <summary>
         /// parse gcode line
         /// </summary>
-        public void parseLine(int lineNr, string line, ref modalGroup modalState)
+        public void parseLine(int lineNr, string line, ref modalGroup modalState, bool isResetCoord = true)
         {
-            presetParsing(lineNr,line);
+            presetParsing(lineNr, line);
             char cmd = '\0';
             string num = "";
             bool comment = false;
@@ -161,7 +170,7 @@ namespace GRBL_Plotter
                         if (c == ';')                                   // comment?
                             break;
                         if (c == '(')                                   // comment starts
-                        {   comment = true;  }
+                        { comment = true; }
                         if (!comment)
                         {
                             if (Char.IsLetter(c))                       // if char is letter
@@ -181,7 +190,7 @@ namespace GRBL_Plotter
                         }
 
                         if (c == ')')                                   // comment ends
-                        {   comment = false;  }
+                        { comment = false; }
                     }
                     if (cmd != '\0')                                    // finally after for-each process final command and number
                     {
@@ -192,7 +201,7 @@ namespace GRBL_Plotter
                 catch (Exception er) { Logger.Error(er, "parseLine"); }
             }
             #endregion
-            if (isSetCoordinateSystem)
+            if (isSetCoordinateSystem && isResetCoord)
                 resetCoordinates();
         }
 
@@ -244,12 +253,14 @@ namespace GRBL_Plotter
                     break;
                 case 'G':
                     if (value <= 3)                                 // Motion Mode 0-3 c
-                    {   modalState.motionMode = motionMode = (byte)value;
+                    {
+                        modalState.motionMode = motionMode = (byte)value;
                         if (value >= 2)
                             modalState.containsG2G3 = true;
                     }
                     else
-                    {   otherCode += "G"+((int)value).ToString()+" ";
+                    {
+                        otherCode += "G" + ((int)value).ToString() + " ";
                     }
 
                     if (value == 10)
@@ -267,8 +278,9 @@ namespace GRBL_Plotter
                     else if (value == 90)                                // Distance Mode
                     { modalState.distanceMode = (byte)value; modalState.isdistanceModeG90 = true; }
                     else if (value == 91)
-                    { modalState.distanceMode = (byte)value; modalState.isdistanceModeG90 = false;
-                      modalState.containsG91 = true;
+                    {
+                        modalState.distanceMode = (byte)value; modalState.isdistanceModeG90 = false;
+                        modalState.containsG91 = true;
                     }
                     else if ((value == 93) || (value == 94))             // Feed Rate Mode
                     { modalState.feedRateMode = (byte)value; }
@@ -277,9 +289,9 @@ namespace GRBL_Plotter
                     if ((value < 3) || (value == 30))                   // Program Mode 0, 1 ,2 ,30
                     { modalState.programMode = (byte)value; }
                     else if (value >= 3 && value <= 5)                   // Spindle State
-                    {   modalState.spindleState = spindleState = (byte)value; }
+                    { modalState.spindleState = spindleState = (byte)value; }
                     else if (value >= 7 && value <= 9)                   // Coolant State
-                    {   modalState.coolantState = coolantState = (byte)value;                    }
+                    { modalState.coolantState = coolantState = (byte)value; }
                     modalState.mWord = (byte)value;
                     if ((value < 3) || (value > 9))
                         otherCode += "M" + ((int)value).ToString() + " ";
@@ -297,6 +309,9 @@ namespace GRBL_Plotter
                     break;
                 case 'L':
                     modalState.lWord = (int)value;
+                    break;
+                case 'N':
+                    gcodeNUmber = (int)value;
                     break;
             }
             isdistanceModeG90 = modalState.isdistanceModeG90;
@@ -329,8 +344,33 @@ namespace GRBL_Plotter
         public modalGroup()     // reset state
         { reset(); }
 
+        public modalGroup(modalGroup modal)
+        {
+            motionMode = modal.motionMode;
+            coordinateSystem = modal.coordinateSystem;
+            planeSelect = modal.planeSelect;
+            distanceMode = modal.distanceMode;
+            feedRateMode = modal.feedRateMode;
+            unitsMode = modal.unitsMode;
+            programMode = modal.programMode;
+            spindleState = modal.spindleState;
+            coolantState = modal.coolantState;
+            tool = modal.tool;
+            spindleSpeed = modal.spindleSpeed;
+            feedRate = modal.feedRate;
+            mWord = modal.mWord;
+            pWord = modal.pWord;
+            oWord = modal.oWord;
+            lWord = modal.lWord;
+            containsG2G3 = modal.containsG2G3;
+            ismachineCoordG53 = modal.ismachineCoordG53;
+            isdistanceModeG90 = modal.isdistanceModeG90;
+            containsG91 = modal.containsG91;
+        }
+
         public void reset()
-        {   motionMode = 0;             // G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
+        {
+            motionMode = 0;             // G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
             coordinateSystem = 54;      // G54, G55, G56, G57, G58, G59
             planeSelect = 17;           // G17, G18, G19
             distanceMode = 90;          // G90, G91
@@ -352,7 +392,8 @@ namespace GRBL_Plotter
             containsG91 = false;
         }
         public void resetSubroutine()
-        {   mWord = 0;
+        {
+            mWord = 0;
             pWord = 0;
             oWord = 0;
             lWord = 1;
@@ -360,25 +401,27 @@ namespace GRBL_Plotter
     }
 
     struct ArcProperties
-    {   public double angleStart, angleEnd, angleDiff, radius;
+    {
+        public double angleStart, angleEnd, angleDiff, radius;
         public xyPoint center;
     };
 
     class gcodeMath
-    {   private static double precision = 0.00001;
+    {
+        private static double precision = 0.00001;
 
         public static bool isEqual(System.Windows.Point a, System.Windows.Point b)
-        {   return ((Math.Abs(a.X - b.X) < precision) && (Math.Abs(a.Y - b.Y) < precision));    }
+        { return ((Math.Abs(a.X - b.X) < precision) && (Math.Abs(a.Y - b.Y) < precision)); }
         public static bool isEqual(xyPoint a, xyPoint b)
-        {   return ((Math.Abs(a.X - b.X) < precision) && (Math.Abs(a.Y - b.Y) < precision));    }
+        { return ((Math.Abs(a.X - b.X) < precision) && (Math.Abs(a.Y - b.Y) < precision)); }
 
         public static double distancePointToPoint(System.Windows.Point a, System.Windows.Point b)
-        {   return Math.Sqrt(((a.X - b.X) * (a.X - b.X)) + ((a.Y - b.Y) * (a.Y - b.Y)));        }
+        { return Math.Sqrt(((a.X - b.X) * (a.X - b.X)) + ((a.Y - b.Y) * (a.Y - b.Y))); }
 
         public static ArcProperties getArcMoveProperties(System.Windows.Point pOld, System.Windows.Point pNew, System.Windows.Point centerIJ, bool isG2)
         { return getArcMoveProperties(new xyPoint(pOld), new xyPoint(pNew), centerIJ.X, centerIJ.Y, isG2); }
         public static ArcProperties getArcMoveProperties(xyPoint pOld, xyPoint pNew, xyPoint center, bool isG2)
-        {   return getArcMoveProperties(pOld, pNew, pOld.X - center.X, pOld.Y - center.Y, isG2);}
+        { return getArcMoveProperties(pOld, pNew, pOld.X - center.X, pOld.Y - center.Y, isG2); }
 
         public static ArcProperties getArcMoveProperties(xyPoint pOld, xyPoint pNew, double? I, double? J, bool isG2)
         {
@@ -388,7 +431,8 @@ namespace GRBL_Plotter
             if (tmp.angleDiff < (-2 * Math.PI)) { tmp.angleDiff += (2 * Math.PI); }
 
             if ((pOld.X == pNew.X) && (pOld.Y == pNew.Y))
-            {   if (isG2) { tmp.angleDiff = -2 * Math.PI; }
+            {
+                if (isG2) { tmp.angleDiff = -2 * Math.PI; }
                 else { tmp.angleDiff = 2 * Math.PI; }
             }
             return tmp;
@@ -397,8 +441,8 @@ namespace GRBL_Plotter
         public static ArcProperties getArcMoveAngle(xyPoint pOld, xyPoint pNew, double? I, double? J)
         {
             ArcProperties tmp;
-			if (I==null) {I=0;}
-			if (J==null) {J=0;}
+            if (I == null) { I = 0; }
+            if (J == null) { J = 0; }
             double i = (double)I;
             double j = (double)J;
             tmp.radius = Math.Sqrt(i * i + j * j);  // get radius of circle
@@ -429,7 +473,7 @@ namespace GRBL_Plotter
         public static double getAlpha(System.Windows.Point pOld, System.Windows.Point pNew)
         { return getAlpha(pOld.X, pOld.Y, pNew.X, pNew.Y); }
         public static double getAlpha(xyPoint pOld, xyPoint pNew)
-        {   return getAlpha(pOld.X, pOld.Y, pNew.X, pNew.Y); }
+        { return getAlpha(pOld.X, pOld.Y, pNew.X, pNew.Y); }
         public static double getAlpha(double P1x, double P1y, double P2x, double P2y)
         {
             double s = 1, a = 0;
@@ -463,19 +507,21 @@ namespace GRBL_Plotter
             return a;
         }
 
-        public static double cutAngle=0, cutAngleLast=0, angleOffset = 0;
+        public static double cutAngle = 0, cutAngleLast = 0, angleOffset = 0;
         public static void resetAngles()
-        {   angleOffset = cutAngle = cutAngleLast = 0.0;  }
+        { angleOffset = cutAngle = cutAngleLast = 0.0; }
         public static double getAngle(System.Windows.Point a, System.Windows.Point b, double offset, int dir)
-        {   return monitorAngle(getAlpha(a, b) + offset, dir);  }
+        { return monitorAngle(getAlpha(a, b) + offset, dir); }
         private static double monitorAngle(double angle, int direction)		// take care of G2 cw G3 ccw direction
-        {   double diff = angle - cutAngleLast + angleOffset;
+        {
+            double diff = angle - cutAngleLast + angleOffset;
             if (direction == 2)
             { if (diff > 0) { angleOffset -= 2 * Math.PI; } }    // clock wise, more negative
             else if (direction == 3)
-            {   if (diff < 0) { angleOffset += 2 * Math.PI; } }    // counter clock wise, more positive
+            { if (diff < 0) { angleOffset += 2 * Math.PI; } }    // counter clock wise, more positive
             else
-            {   if (diff > Math.PI)
+            {
+                if (diff > Math.PI)
                     angleOffset -= 2 * Math.PI;
                 if (diff < -Math.PI)
                     angleOffset += 2 * Math.PI;
