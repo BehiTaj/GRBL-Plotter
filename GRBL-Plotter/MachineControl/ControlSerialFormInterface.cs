@@ -187,7 +187,7 @@ namespace GRBL_Plotter
             { processGrblUserQuery(rxString); }
 
             isDataProcessing = false;                   // unlock serialPort1_DataReceived
-            
+
         }
 
         /***** processGrblOkMessage 'Ok' *****/
@@ -296,7 +296,7 @@ namespace GRBL_Plotter
                                 continue;
                             }
                             if (dataField[i].IndexOf("Ln:") >= 0)            // Line number - needs to be enabled in config.h file
-                            { machineState.Ln = lblSrLn.Text = data[1]; continue; }
+                            { machineState.Ln = lblSrLn.Text = data[1]; grbl.Ln = int.Parse(data[1]); continue; }
                             if (dataField[i].IndexOf("FS:") >= 0)            // Current Feed and Speed - This data field will always appear, unless it was explicitly disabled in the config.h file
                             { machineState.FS = lblSrFS.Text = data[1]; continue; }
                             if (dataField[i].IndexOf("F:") >= 0)             // Current Feed - see above is speed is disabled in config.h
@@ -306,7 +306,7 @@ namespace GRBL_Plotter
                             if (dataField[i].IndexOf("Ov:") >= 0)            // Override Values - This data field will not appear if It is disabled in the config.h file
                             {
                                 machineState.Ov = lblSrOv.Text = data[1]; lblSrPn.Text = "";
-                                grbl.OV = double.Parse(data[1]);
+                                grbl.OV = double.Parse(data[1].Split('.')[0]);
 
                                 if (dataField[dataField.Length - 1].IndexOf("A:") >= 0)             // Accessory State
                                 { machineState.A = lblSrA.Text = dataField[dataField.Length - 1].Split(':')[1]; }
@@ -434,8 +434,9 @@ namespace GRBL_Plotter
             requestSend("$10=2"); //if (grbl.getSetting(10) != 2) { requestSend("$10=2"); } // to get buffer size
             return;
         }
-		public void readSettings()
-        {   countPreventOutput = 10; countPreventEvent = 10;
+        public void readSettings()
+        {
+            countPreventOutput = 10; countPreventEvent = 10;
             requestSend("$$");  // get setup
             requestSend("$#");  // get parameter
         }
@@ -629,7 +630,8 @@ namespace GRBL_Plotter
         {
             if ((isStreamingRequestPause) && (grblStateNow == grblState.run))
 
-            {   addToLog("!!! Command blocked - wait for IDLE " + data);
+            {
+                addToLog("!!! Command blocked - wait for IDLE " + data);
                 Logger.Info("requestSend waitForIdle:{0}", waitForIdle);
                 Logger.Info("requestSend infoStream:{0}", listInfoStream());
                 Logger.Info("requestSend infoSend:  {0}", listInfoSend());
@@ -639,7 +641,8 @@ namespace GRBL_Plotter
                 var tmp = cleanUpCodeLine(data, keepComments);
                 if ((!string.IsNullOrEmpty(tmp)) && (tmp[0] != ';'))    // trim lines and remove all empty lines and comment lines
 
-                {   if (tmp == "$#") countPreventEvent = 5;                  // no response echo for parser state
+                {
+                    if (tmp == "$#") countPreventEvent = 5;                  // no response echo for parser state
                     if (tmp == "$H") { isHoming = true; addToLog("Homing"); Logger.Info("requestSend Start Homing"); }
 
                     lock (sendDataLock)
@@ -782,12 +785,13 @@ namespace GRBL_Plotter
                                 int len = (line.Length + 1);
                                 if (serialPort.IsOpen && (grblBufferFree >= len) && (line != "OV") && (!waitForOk))// && !blockSend)
 
-								{	serialPort.Write(line + "\r");							
-									grblBufferFree -= len;
-									if (!grblCharacterCounting)
-										grblBufferFree = 0;
-									sendBuffer.LineWasSent();
-                                   if (logTransmit || cBStatus1.Checked || cBStatus.Checked) Logger.Trace("s{0} TX '{1,-20}' length:{2}  BufferFree:{3}  Index:{4}  max:{5}", iamSerial, line, len, grblBufferFree, sendBuffer.IndexSent, sendBuffer.Count);
+                                {
+                                    serialPort.Write(line + "\r");
+                                    grblBufferFree -= len;
+                                    if (!grblCharacterCounting)
+                                        grblBufferFree = 0;
+                                    sendBuffer.LineWasSent();
+                                    if (logTransmit || cBStatus1.Checked || cBStatus.Checked) Logger.Trace("s{0} TX '{1,-20}' length:{2}  BufferFree:{3}  Index:{4}  max:{5}", iamSerial, line, len, grblBufferFree, sendBuffer.IndexSent, sendBuffer.Count);
 
                                 }
                                 else
@@ -846,7 +850,7 @@ namespace GRBL_Plotter
                         break;
                     }
 
-                    
+
                     if (line == "($PROBE)")
                     { waitForIdle = true; waitForOk = true; externalProbe = true; grblStateLast = grblState.unknown; countPreventIdle = 5; }
                 }
@@ -1126,16 +1130,17 @@ namespace GRBL_Plotter
                     buffer[sent] = txt;
             }
 
-			public void LineWasSent()
-			{sent++;}
-  			public void LineWasReceived()
-			{confirmed++;}
-			public bool OkToSend(int bufferSize)
-			{   if ((buffer == null) || (sent >= buffer.Count) || (sent < 0))
+            public void LineWasSent()
+            { sent++; }
+            public void LineWasReceived()
+            { confirmed++; }
+            public bool OkToSend(int bufferSize)
+            {
+                if ((buffer == null) || (sent >= buffer.Count) || (sent < 0))
                     return false;
                 int blen = buffer[sent].Length + 1;
                 return (bufferSize >= blen);
-            }  
+            }
 
             public bool Insert(int index, string cmt)
             {

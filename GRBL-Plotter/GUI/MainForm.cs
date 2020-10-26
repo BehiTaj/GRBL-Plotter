@@ -1436,20 +1436,41 @@ namespace GRBL_Plotter
             g.Dispose();
         }
 
+        string tempFilename = "";
+
         private void backwardToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openBackward = new OpenFileDialog();
-            if (openBackward.ShowDialog() == DialogResult.OK)
-            {
-                GCodeCreation.BackwardGCode back = new GCodeCreation.BackwardGCode();
-                back.createBackwardList(File.ReadAllLines(openBackward.FileName));
 
-            }
+            tempFilename = Path.GetTempFileName();
+
+
+            //OpenFileDialog openBackward = new OpenFileDialog();
+            //if (openBackward.ShowDialog() == DialogResult.OK)
+            //{
+
+
+
+            GCodeCreation.BackwardGCode back = new GCodeCreation.BackwardGCode();
+            string[] backwardList = back.createBackwardList(fCTBCode.Lines.ToArray()).ToArray();
+            string[] backwardFileExport = back.initBackward(backwardList, grbl.Ln, grbl.posWork.X, grbl.posWork.Y, grbl.posWork.Z);
+
+            File.WriteAllLines(tempFilename, backwardFileExport);
+
+
+
+            btnReset_Click(sender, e);
+            btnStreamStop_Click(sender, e);
+
+            loadFile(tempFilename);
+            isHeightMapApplied = false;
+
+
+            btnStreamStart_Click(sender, e);
         }
 
-        private void relayToolStripMenuItem_Click(object sender, EventArgs e)
+        private void getListResultToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            sendRealtimeCommand(0xa2);
+
         }
     }
 }

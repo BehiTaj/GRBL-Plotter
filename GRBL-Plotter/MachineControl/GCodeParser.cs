@@ -64,7 +64,7 @@ namespace GRBL_Plotter
     /// <summary>
     /// Hold parsed GCode line and absolute work coordinate for given linenumber of GCode program
     /// </summary>
-    class gcodeByLine
+    public class gcodeByLine
     {   // ModalGroups
         public int lineNumber;          // line number in fCTBCode
 
@@ -318,7 +318,7 @@ namespace GRBL_Plotter
         }
     };
 
-    class modalGroup
+    public class modalGroup
     {
         public byte motionMode;           // G0, G1, G2, G3, //G38.2, G38.3, G38.4, G38.5, G80
         public byte coordinateSystem;     // G54, G55, G56, G57, G58, G59

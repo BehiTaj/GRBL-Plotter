@@ -133,7 +133,7 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>243, 15</value>
+    <value>218, 15</value>
   </data>
   <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
@@ -6859,11 +6859,11 @@ Langue
   <data name="backwardToolStripMenuItem.Text" xml:space="preserve">
     <value>backward</value>
   </data>
-  <data name="relayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 24</value>
+  <data name="getListResultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
   </data>
-  <data name="relayToolStripMenuItem.Text" xml:space="preserve">
-    <value>relay</value>
+  <data name="getListResultToolStripMenuItem.Text" xml:space="preserve">
+    <value>getListResult</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 2</value>
@@ -7918,10 +7918,10 @@ Langue
   <data name="&gt;&gt;backwardToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;relayToolStripMenuItem.Name" xml:space="preserve">
-    <value>relayToolStripMenuItem</value>
+  <data name="&gt;&gt;getListResultToolStripMenuItem.Name" xml:space="preserve">
+    <value>getListResultToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;relayToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;getListResultToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MainTimer.Name" xml:space="preserve">

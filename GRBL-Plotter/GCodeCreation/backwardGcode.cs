@@ -9,13 +9,7 @@ namespace GRBL_Plotter.GCodeCreation
 {
     public class BackwardGCode
     {
-        public string[] backwardGcode;  //Finaly backward list
-
-
-
-
-
-        public void createBackwardList(string[] gcode)
+        public List<string> createBackwardList(string[] gcode)
         {
             gcodeByLine preLine = new gcodeByLine(); //previus line    
             modalGroup preModalGroup = new modalGroup();
@@ -40,7 +34,7 @@ namespace GRBL_Plotter.GCodeCreation
                 }
                 tmp = "";
 
-
+                tmp += "N" + curLine.gcodeNUmber + " ";
                 if (isFirstGcodeLine) //is it first gcode Line?
                 {
                     isFirstGcodeLine = false;
@@ -50,7 +44,7 @@ namespace GRBL_Plotter.GCodeCreation
                 {
                     if (preModalGroup.motionMode == 1 || preModalGroup.motionMode == 0)
                     {
-                        tmp += string.Format("G{0} {1}", preModalGroup.motionMode, returnCoordsVal(curLine));
+                        tmp += string.Format("G{0}{1}", preModalGroup.motionMode, returnCoordsVal(curLine));
                     }
                     else
                     {
@@ -58,19 +52,82 @@ namespace GRBL_Plotter.GCodeCreation
                     }
                 }
 
-
                 result.Add(tmp);
                 tmp += "\r\n";
                 preLine = new gcodeByLine(curLine);
                 preModalGroup = new modalGroup(curModalGroup);
             }
-            SaveFileDialog save = new SaveFileDialog();
-            if (save.ShowDialog() == DialogResult.OK)
+
+            //      +++  Test  +++
+            //SaveFileDialog save = new SaveFileDialog();
+            //if (save.ShowDialog() == DialogResult.OK)
+            //{
+            //    File.WriteAllLines(save.FileName, result);
+            //}
+
+            return result;
+        }
+
+        public string[] initBackward(string[] gcodes, int lineNr, double holdedLocationX, double holdedLocationY, double holdLocationZ)
+        {
+
+            gcodes.ToList<string>();
+            List<string> result = new List<string>();
+
+            bool isFind = false;
+            int index = 0;
+
+            for (int i = 0; i < gcodes.Length; i++)
             {
-                File.WriteAllLines(save.FileName, result);
-                MessageBox.Show("saved");
+                if (gcodes[i].StartsWith("N" + lineNr))
+                {
+                    isFind = true;
+                    index = i;
+                    break;
+                }
+            }
+
+            if (!isFind)
+            {
+                MessageBox.Show("Problem in backward !!!");
+                return null;
+            }
+            else
+            {
+                gcodeByLine nextLine = new gcodeByLine(); //nextLine in backward or preLine in forward
+                modalGroup nextLineModalGroup = new modalGroup();
+                nextLine.parseLine(0, gcodes[index + 1], ref nextLineModalGroup);
+
+                gcodeByLine curLine = new gcodeByLine(); //nextLine in backward or preLine in forward
+                modalGroup curLineModalGroup = new modalGroup();
+                curLine.parseLine(0, gcodes[index], ref curLineModalGroup);
+
+                if (nextLineModalGroup.containsG2G3)
+                {
+                    string newGcode = "";
+
+                    double motionMode = 3;
+                    if (nextLineModalGroup.motionMode == 2)
+                    {
+                        motionMode = 2;
+                    }
+                    newGcode = string.Format("G1 X{4} Y{5} F100\r\nN{3} G{0}{1}{2}", motionMode, returnCoordsVal(nextLine), returnIJ2(curLine, nextLine,
+                        (double)holdedLocationX, (double)holdedLocationY), lineNr - 1, holdedLocationX, holdedLocationY);
+                    gcodes[index + 1] = newGcode;
+                    gcodes = gcodes.Skip(1).ToArray();
+                }
+                else
+                {
+                    gcodes[index + 1] += "F100";
+                    gcodes = gcodes.Skip(1).ToArray();
+                }
+
+                return gcodes.Skip(index).ToArray();
             }
         }
+
+
+
 
         #region [ returnCoordsVal ]
         /// <summary>
@@ -110,7 +167,7 @@ namespace GRBL_Plotter.GCodeCreation
         }
         #endregion
 
-
+        #region [ returnIJ ]
         private string returnIJ(gcodeByLine preCoords, gcodeByLine curCoords)
         {
             double cX = (double)curCoords.x + (double)preCoords.i;
@@ -122,7 +179,31 @@ namespace GRBL_Plotter.GCodeCreation
             return string.Format(" I{0:0.0000} J{1:0.0000}", I, J);
         }
 
+        private string returnIJ(gcodeByLine preCoords, double X, double Y)
+        {
+            double cX = X + (double)preCoords.i;
+            double cy = Y + (double)preCoords.j;
 
+            double I = cX - (double)preCoords.x;
+            double J = cy - (double)preCoords.y;
+
+            return string.Format(" I{0:0.0000} J{1:0.0000}", I, J);
+        }
+
+        private string returnIJ2(gcodeByLine curCoords, gcodeByLine preCoords, double X, double Y)
+        {
+            double cX = (double)curCoords.x + (double)preCoords.i;
+            double cy = (double)curCoords.y + (double)preCoords.j;
+
+            double I = cX - X;
+            double J = cy - Y;
+
+            return string.Format(" I{0:0.0000} J{1:0.0000}", I, J);
+        }
+        #endregion
+
+
+        #region [ arcMaker ]
         private string arcMaker(gcodeByLine curCoords, gcodeByLine preCoords, modalGroup preModalGroup)
         {
             string result = "";
@@ -137,5 +218,6 @@ namespace GRBL_Plotter.GCodeCreation
 
             return result;
         }
+        #endregion
     }
 }
